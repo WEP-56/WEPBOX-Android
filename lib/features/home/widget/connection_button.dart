@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gap/gap.dart';
 import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/core/model/failures.dart';
 import 'package:hiddify/core/router/bottom_sheets/bottom_sheets_notifier.dart';
 import 'package:hiddify/core/router/dialog/dialog_notifier.dart';
-import 'package:hiddify/core/router/dialog/widgets/custom_alert_dialog.dart';
 import 'package:hiddify/core/theme/theme_extensions.dart';
 import 'package:hiddify/core/widget/animated_text.dart';
 import 'package:hiddify/features/connection/model/connection_status.dart';
@@ -15,7 +12,6 @@ import 'package:hiddify/features/profile/notifier/active_profile_notifier.dart';
 import 'package:hiddify/features/proxy/active/active_proxy_notifier.dart';
 import 'package:hiddify/features/settings/data/config_option_repository.dart';
 import 'package:hiddify/features/settings/notifier/config_option/config_option_notifier.dart';
-import 'package:hiddify/gen/assets.gen.dart';
 import 'package:hiddify/singbox/model/singbox_config_enum.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
@@ -33,7 +29,6 @@ class ConnectionButton extends HookConsumerWidget {
     final requiresReconnect = ref
         .watch(configOptionNotifierProvider)
         .valueOrNull;
-    final today = DateTime.now();
     // final animationController = useAnimationController(
     //   duration: const Duration(seconds: 1),
     // )..repeat(reverse: true); // Ensure the animation loops indefinitely
@@ -183,35 +178,6 @@ class ConnectionButton extends HookConsumerWidget {
         AsyncData(value: _) => buttonTheme.idleColor!,
         _ => Colors.red,
       },
-      image: switch (connectionStatus) {
-        AsyncData(value: Connected()) when requiresReconnect == true =>
-          Assets.images.disconnectNorouz,
-        AsyncData(value: Connected()) => Assets.images.connectNorouz,
-        AsyncData(value: _) => Assets.images.disconnectNorouz,
-        _ => Assets.images.disconnectNorouz,
-        AsyncData(value: Disconnected()) ||
-        AsyncError() => Assets.images.disconnectNorouz,
-        AsyncData(value: Connected()) => Assets.images.connectNorouz,
-        _ => Assets.images.disconnectNorouz,
-      },
-      newButtonColor: switch (connectionStatus) {
-        AsyncData(value: Connected()) when requiresReconnect == true =>
-          Colors.teal,
-        AsyncData(value: Connected()) when delay <= 0 || delay >= 65000 =>
-          const Color.fromARGB(255, 185, 176, 103),
-        AsyncData(value: Connected()) => buttonTheme.connectedColor!,
-        AsyncData(value: _) => buttonTheme.idleColor!,
-        _ => Colors.red,
-      },
-      animated: switch (connectionStatus) {
-        AsyncData(value: Connected()) when requiresReconnect == true => false,
-        AsyncData(value: Connected()) when delay <= 0 || delay >= 65000 =>
-          false,
-        AsyncData(value: Connected()) => true,
-        AsyncData(value: _) => true,
-        _ => false,
-      },
-      useImage: today.day >= 19 && today.day <= 23 && today.month == 3,
       secureLabel: secureLabel,
     );
   }
@@ -223,10 +189,6 @@ class _ConnectionButton extends StatelessWidget {
     required this.enabled,
     required this.label,
     required this.buttonColor,
-    required this.image,
-    required this.useImage,
-    required this.newButtonColor,
-    required this.animated,
     required this.secureLabel,
   });
 
@@ -234,102 +196,89 @@ class _ConnectionButton extends StatelessWidget {
   final bool enabled;
   final String label;
   final Color buttonColor;
-  final AssetGenImage image;
-  final bool useImage;
   final String secureLabel;
-
-  final Color newButtonColor;
-
-  final bool animated;
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        // CircleDesignWidget(newButtonColor: newButtonColor, onTap: onTap, animated: animated),
-        Semantics(
-          button: true,
-          enabled: enabled,
-          label: label,
-          child:
-              Container(
-                    clipBehavior: Clip.antiAlias,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      boxShadow: [
-                        BoxShadow(
-                          blurRadius: 16,
-                          color: buttonColor.withValues(alpha: .5),
-                        ),
-                      ],
-                    ),
-                    width: 148,
-                    height: 148,
-                    child: Material(
-                      key: const ValueKey("home_connection_button"),
-                      shape: const CircleBorder(),
-                      color: Colors.white,
-                      child: InkWell(
-                        focusColor: Colors.grey,
-                        onTap: onTap,
-                        child: Padding(
-                          padding: const EdgeInsets.all(36),
-                          child: TweenAnimationBuilder(
-                            tween: ColorTween(end: buttonColor),
-                            duration: const Duration(milliseconds: 250),
-                            builder: (context, value, child) {
-                              if (useImage) {
-                                return image.image();
-                              } else {
-                                return Image.asset(
-                                  'assets/images/wepbox_logo.png',
-                                  color: value,
-                                  colorBlendMode: BlendMode.srcIn,
-                                );
-                              }
-                            },
-                          ),
-                        ),
-                      ),
-                    ).animate(target: enabled ? 0 : 1).blurXY(end: 1),
-                  )
-                  .animate(target: enabled ? 0 : 1)
-                  .scaleXY(end: .88, curve: Curves.easeIn),
+    final theme = Theme.of(context);
+    final connected = buttonColor == ConnectionButtonTheme.light.connectedColor;
+    final title = connected ? '安全通行' : '安全待命';
+    final action = connected ? '关闭网络安全连接' : '开启网络安全连接';
+
+    return Semantics(
+      button: true,
+      enabled: enabled,
+      label: label,
+      child: Container(
+        key: const ValueKey("home_connection_button"),
+        width: double.infinity,
+        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 36),
+        decoration: BoxDecoration(
+          color: theme.colorScheme.surface,
+          border: Border.all(color: theme.colorScheme.outlineVariant),
+          borderRadius: BorderRadius.circular(4),
         ),
-        const Gap(16),
-        ExcludeSemantics(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              AnimatedText(
-                label,
-                style: Theme.of(context).textTheme.titleMedium,
+        child: Column(
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 5),
+              decoration: BoxDecoration(
+                border: Border.all(color: theme.colorScheme.outlineVariant),
+                borderRadius: BorderRadius.circular(999),
               ),
-              if (secureLabel.isNotEmpty) ...[
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    // const Gap(8),
-                    Icon(
-                      FontAwesomeIcons.shieldHalved,
-                      size: 16,
-                      color: Theme.of(context).colorScheme.secondary,
-                    ),
-                    const Gap(4),
-                    Text(
-                      secureLabel,
-                      style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                        color: Theme.of(context).colorScheme.secondary,
-                      ),
-                    ),
-                  ],
+              child: AnimatedText(
+                connected ? '已连接' : '未连接',
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: theme.colorScheme.onSurfaceVariant,
                 ),
-              ],
+              ),
+            ),
+            const Gap(28),
+            Text(
+              title,
+              style: theme.textTheme.displaySmall?.copyWith(
+                fontFamily: 'serif',
+                fontWeight: FontWeight.w300,
+                letterSpacing: 4,
+              ),
+            ),
+            if (secureLabel.isNotEmpty) ...[
+              const Gap(8),
+              Text(
+                secureLabel,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: theme.colorScheme.primary,
+                ),
+              ),
             ],
-          ),
+            const Gap(28),
+            SizedBox(
+              width: double.infinity,
+              height: 48,
+              child: FilledButton(
+                onPressed: enabled ? onTap : null,
+                style: FilledButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(0),
+                  ),
+                  backgroundColor: theme.colorScheme.onSurface,
+                  foregroundColor: theme.colorScheme.surface,
+                  disabledBackgroundColor: theme.colorScheme.outlineVariant,
+                  disabledForegroundColor: theme.colorScheme.onSurfaceVariant,
+                ),
+                child: Text(
+                  action,
+                  style: const TextStyle(
+                    fontSize: 13,
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: 2,
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
-      ],
+      ).animate(target: enabled ? 0 : 1).blurXY(end: 1),
     );
   }
 }
