@@ -8,15 +8,19 @@ abstract interface class BatteryOptimizationRepository {
   Future<bool?> requestIgnoreBatteryOptimizations();
 }
 
-class BatteryOptimizationRepositoryImpl with ExceptionHandler, InfraLogger implements BatteryOptimizationRepository {
-  final _methodChannel = const MethodChannel("com.hiddify.app/platform");
+class BatteryOptimizationRepositoryImpl
+    with ExceptionHandler, InfraLogger
+    implements BatteryOptimizationRepository {
+  final _methodChannel = const MethodChannel("com.wepbox.app/platform");
 
   @override
   Future<bool?> isIgnoringBatteryOptimizations() async {
     bool? result;
     try {
       loggy.debug("checking battery optimization status");
-      result = await _methodChannel.invokeMethod<bool>("is_ignoring_battery_optimizations");
+      result = await _methodChannel.invokeMethod<bool>(
+        "is_ignoring_battery_optimizations",
+      );
       loggy.debug("is ignoring battery optimizations? [$result]");
     } catch (e) {
       loggy.log(LogLevel.error, e.toString());
@@ -29,7 +33,9 @@ class BatteryOptimizationRepositoryImpl with ExceptionHandler, InfraLogger imple
     bool? result;
     try {
       loggy.debug("requesting ignore battery optimization");
-      result = await _methodChannel.invokeMethod<bool>("request_ignore_battery_optimizations");
+      result = await _methodChannel.invokeMethod<bool>(
+        "request_ignore_battery_optimizations",
+      );
       loggy.debug("ignore battery optimization result: [$result]");
     } catch (e) {
       loggy.log(LogLevel.error, e.toString());

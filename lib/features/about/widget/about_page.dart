@@ -27,14 +27,21 @@ class AboutPage extends HookConsumerWidget {
     ref.listen(appUpdateNotifierProvider, (_, next) async {
       if (!context.mounted) return;
       switch (next) {
-        case AppUpdateStateAvailable(:final versionInfo) || AppUpdateStateIgnored(:final versionInfo):
+        case AppUpdateStateAvailable(:final versionInfo) ||
+            AppUpdateStateIgnored(:final versionInfo):
           return await ref
               .read(dialogNotifierProvider.notifier)
-              .showNewVersion(currentVersion: appInfo.presentVersion, newVersion: versionInfo, canIgnore: false);
+              .showNewVersion(
+                currentVersion: appInfo.presentVersion,
+                newVersion: versionInfo,
+                canIgnore: false,
+              );
         case AppUpdateStateError(:final error):
           return CustomToast.error(t.presentShortError(error)).show(context);
         case AppUpdateStateNotAvailable():
-          return CustomToast.success(t.pages.about.notAvailableMsg).show(context);
+          return CustomToast.success(
+            t.pages.about.notAvailableMsg,
+          ).show(context);
       }
     });
 
@@ -43,7 +50,11 @@ class AboutPage extends HookConsumerWidget {
         ListTile(
           title: Text(t.pages.about.checkForUpdate),
           trailing: switch (appUpdate) {
-            AppUpdateStateChecking() => const SizedBox(width: 24, height: 24, child: CircularProgressIndicator()),
+            AppUpdateStateChecking() => const SizedBox(
+              width: 24,
+              height: 24,
+              child: CircularProgressIndicator(),
+            ),
             _ => const Icon(FluentIcons.arrow_sync_24_regular),
           },
           onTap: () async {
@@ -55,7 +66,11 @@ class AboutPage extends HookConsumerWidget {
           title: Text(t.pages.about.openWorkingDir),
           trailing: const Icon(FluentIcons.open_folder_24_regular),
           onTap: () async {
-            final path = ref.watch(appDirectoriesProvider).requireValue.workingDir.uri;
+            final path = ref
+                .watch(appDirectoriesProvider)
+                .requireValue
+                .workingDir
+                .uri;
             await UriUtils.tryLaunch(path);
           },
         ),
@@ -89,12 +104,19 @@ class AboutPage extends HookConsumerWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Assets.images.logo.svg(width: 64, height: 64),
+                  Image.asset(
+                    'assets/images/wepbox_logo.png',
+                    width: 64,
+                    height: 64,
+                  ),
                   const Gap(16),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(t.common.appTitle, style: Theme.of(context).textTheme.titleLarge),
+                      Text(
+                        t.common.appTitle,
+                        style: Theme.of(context).textTheme.titleLarge,
+                      ),
                       const Gap(4),
                       Text("${t.common.version} ${appInfo.presentVersion}"),
                     ],
@@ -118,21 +140,27 @@ class AboutPage extends HookConsumerWidget {
                 title: Text(t.pages.about.telegramChannel),
                 trailing: const Icon(FluentIcons.open_24_regular),
                 onTap: () async {
-                  await UriUtils.tryLaunch(Uri.parse(Constants.telegramChannelUrl));
+                  await UriUtils.tryLaunch(
+                    Uri.parse(Constants.telegramChannelUrl),
+                  );
                 },
               ),
               ListTile(
                 title: Text(t.pages.about.termsAndConditions),
                 trailing: const Icon(FluentIcons.open_24_regular),
                 onTap: () async {
-                  await UriUtils.tryLaunch(Uri.parse(Constants.termsAndConditionsUrl));
+                  await UriUtils.tryLaunch(
+                    Uri.parse(Constants.termsAndConditionsUrl),
+                  );
                 },
               ),
               ListTile(
                 title: Text(t.pages.about.privacyPolicy),
                 trailing: const Icon(FluentIcons.open_24_regular),
                 onTap: () async {
-                  await UriUtils.tryLaunch(Uri.parse(Constants.privacyPolicyUrl));
+                  await UriUtils.tryLaunch(
+                    Uri.parse(Constants.privacyPolicyUrl),
+                  );
                 },
               ),
             ]),

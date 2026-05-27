@@ -1,370 +1,370 @@
 {
   "common": {
-    "appTitle": "Hiddify",
-    "start": "開始",
-    "version": "版本",
-    "ok": "確定",
-    "cancel": "取消",
-    "kContinue": "繼續",
-    "showMore": "顯示更多",
-    "showLess": "顯示較少",
-    "filter": "篩選",
-    "all": "全部",
-    "pause": "暫停",
-    "resume": "恢復",
-    "clear": "清除",
-    "close": "關閉",
-    "auto": "自動",
-    "manually": "手動",
-    "name": "名稱",
+    "appTitle": "WEPBOX",
+    "start": "闁嬪",
+    "version": "鐗堟湰",
+    "ok": "纰哄畾",
+    "cancel": "鍙栨秷",
+    "kContinue": "绻肩簩",
+    "showMore": "椤ず鏇村",
+    "showLess": "椤ず杓冨皯",
+    "filter": "绡╅伕",
+    "all": "鍏ㄩ儴",
+    "pause": "鏆仠",
+    "resume": "鎭㈠京",
+    "clear": "娓呴櫎",
+    "close": "闂滈枆",
+    "auto": "鑷嫊",
+    "manually": "鎵嬪嫊",
+    "name": "鍚嶇ū",
     "url": "URL",
-    "add": "新增",
-    "clipboard": "剪貼簿",
-    "addToClipboard": "新增至剪貼簿",
-    "scanQr": "掃描 QR Code",
-    "free": "免費",
+    "add": "鏂板",
+    "clipboard": "鍓布绨?,
+    "addToClipboard": "鏂板鑷冲壀璨肩翱",
+    "scanQr": "鎺冩弿 QR Code",
+    "free": "鍏嶈不",
     "warp": "WARP",
     "fragment": "Fragment",
-    "help": "說明",
-    "save": "儲存",
-    "update": "更新",
-    "share": "分享",
-    "edit": "編輯",
-    "delete": "刪除",
-    "discard": "捨棄",
-    "import": "匯入",
-    "export": "匯出",
-    "later": "稍後",
-    "ignore": "忽略",
-    "quit": "退出",
-    "notSet": "未設定",
-    "hide": "隱藏",
-    "exit": "退出",
-    "reset": "重設",
-    "done": "完成",
-    "search": "搜尋",
-    "decline": "拒絕",
-    "agree": "同意",
-    "empty": "空",
-    "unknown": "未知",
-    "hidden": "隱藏",
-    "timeout": "超時",
-    "sort": "排序",
-    "dashboard": "儀表板",
+    "help": "瑾槑",
+    "save": "鍎插瓨",
+    "update": "鏇存柊",
+    "share": "鍒嗕韩",
+    "edit": "绶ㄨ集",
+    "delete": "鍒櫎",
+    "discard": "鎹ㄦ",
+    "import": "鍖叆",
+    "export": "鍖嚭",
+    "later": "绋嶅緦",
+    "ignore": "蹇界暐",
+    "quit": "閫€鍑?,
+    "notSet": "鏈ō瀹?,
+    "hide": "闅辫棌",
+    "exit": "閫€鍑?,
+    "reset": "閲嶈ō",
+    "done": "瀹屾垚",
+    "search": "鎼滃皨",
+    "decline": "鎷掔禃",
+    "agree": "鍚屾剰",
+    "empty": "绌?,
+    "unknown": "鏈煡",
+    "hidden": "闅辫棌",
+    "timeout": "瓒呮檪",
+    "sort": "鎺掑簭",
+    "dashboard": "鍎€琛ㄦ澘",
     "interval": {
       "day": {
         "zero": "",
-        "one": "$n 天",
-        "other": "$n 天"
+        "one": "$n 澶?,
+        "other": "$n 澶?
       },
       "hour": {
         "zero": "",
-        "one": "$n 小時",
-        "other": "$n 小時"
+        "one": "$n 灏忔檪",
+        "other": "$n 灏忔檪"
       }
     },
     "msg": {
       "permission": {
-        "denied": "權限被拒絕"
+        "denied": "娆婇檺琚嫆绲?
       },
       "export": {
         "clipboard": {
-          "success": "已成功新增至剪貼簿",
-          "failure": "複製到剪貼簿失敗",
-          "contentTooLarge": "內容過大，請改用匯出檔案"
+          "success": "宸叉垚鍔熸柊澧炶嚦鍓布绨?,
+          "failure": "瑜囪＝鍒板壀璨肩翱澶辨晽",
+          "contentTooLarge": "鍏у閬庡ぇ锛岃珛鏀圭敤鍖嚭妾旀"
         },
         "file": {
-          "success": "JSON 檔案建立成功",
-          "failure": "建立檔案失敗"
+          "success": "JSON 妾旀寤虹珛鎴愬姛",
+          "failure": "寤虹珛妾旀澶辨晽"
         }
       },
       "import": {
-        "confirm": "確認匯入",
-        "success": "匯入成功",
-        "failure": "匯入失敗"
+        "confirm": "纰鸿獚鍖叆",
+        "success": "鍖叆鎴愬姛",
+        "failure": "鍖叆澶辨晽"
       }
     }
   },
   "intro": {
-    "banner": "暢享無限制網路的所需一切",
-    "termsAndPolicyCaution(rich)": "繼續即表示您同意 ${tap(@:pages.about.termsAndConditions)}",
-    "info(rich)": "由 Hiddify 以 ❤️ 製作 - ${tap_source(開源)} (${tap_license(授權)})"
+    "banner": "鏆韩鐒￠檺鍒剁恫璺殑鎵€闇€涓€鍒?,
+    "termsAndPolicyCaution(rich)": "绻肩簩鍗宠〃绀烘偍鍚屾剰 ${tap(@:pages.about.termsAndConditions)}",
+    "info(rich)": "鐢?Hiddify 浠?鉂わ笍 瑁戒綔 - ${tap_source(闁嬫簮)} (${tap_license(鎺堟瑠)})"
   },
   "pages": {
     "home": {
-      "title": "首頁",
-      "quickSettings": "快速設定"
+      "title": "棣栭爜",
+      "quickSettings": "蹇€熻ō瀹?
     },
     "proxies": {
-      "title": "代理",
-      "sort": "排序代理",
-      "testDelay": "測試延遲",
-      "empty": "無可用代理",
-      "activeProxy": "當前代理",
-      "unknownIp": "未知 IP",
+      "title": "浠ｇ悊",
+      "sort": "鎺掑簭浠ｇ悊",
+      "testDelay": "娓│寤堕伈",
+      "empty": "鐒″彲鐢ㄤ唬鐞?,
+      "activeProxy": "鐣跺墠浠ｇ悊",
+      "unknownIp": "鏈煡 IP",
       "sortOptions": {
-        "unsorted": "預設",
-        "name": "按名稱",
-        "delay": "按延遲"
+        "unsorted": "闋愯ō",
+        "name": "鎸夊悕绋?,
+        "delay": "鎸夊欢閬?
       },
       "ipInfo": {
-        "address": "IP 位址",
-        "country": "國家",
-        "organization": "組織"
+        "address": "IP 浣嶅潃",
+        "country": "鍦嬪",
+        "organization": "绲勭箶"
       },
       "delay": {
-        "result": "延遲：${delay}毫秒",
-        "timeout": "延遲測試超時",
-        "testing": "延遲：測試中..."
+        "result": "寤堕伈锛?{delay}姣",
+        "timeout": "寤堕伈娓│瓒呮檪",
+        "testing": "寤堕伈锛氭脯瑭︿腑..."
       }
     },
     "profiles": {
-      "title": "設定檔",
-      "add": "新增設定檔",
-      "update": "更新設定檔",
-      "viewAllProfiles": "檢視所有設定檔",
-      "activeProfileName": "目前設定檔：「${name}」",
-      "nonActiveProfileName": "選擇「${name}」作為目前設定檔",
-      "freeSubNotFound": "未找到免費訂閱",
-      "freeSubNotFoundForRegion": "未找到「${region}」地區的免費訂閱",
-      "failedToLoad": "載入失敗",
-      "updateSubscriptions": "更新訂閱",
+      "title": "瑷畾妾?,
+      "add": "鏂板瑷畾妾?,
+      "update": "鏇存柊瑷畾妾?,
+      "viewAllProfiles": "妾㈣鎵€鏈夎ō瀹氭獢",
+      "activeProfileName": "鐩墠瑷畾妾旓細銆?{name}銆?,
+      "nonActiveProfileName": "閬告搰銆?{name}銆嶄綔鐐虹洰鍓嶈ō瀹氭獢",
+      "freeSubNotFound": "鏈壘鍒板厤璨昏▊闁?,
+      "freeSubNotFoundForRegion": "鏈壘鍒般€?{region}銆嶅湴鍗€鐨勫厤璨昏▊闁?,
+      "failedToLoad": "杓夊叆澶辨晽",
+      "updateSubscriptions": "鏇存柊瑷傞柋",
       "share": {
-        "urlToClipboard": "URL 到剪貼簿",
-        "showUrlQr": "顯示 URL QR Code",
-        "jsonToClipboard": "JSON 到剪貼簿"
+        "urlToClipboard": "URL 鍒板壀璨肩翱",
+        "showUrlQr": "椤ず URL QR Code",
+        "jsonToClipboard": "JSON 鍒板壀璨肩翱"
       },
       "msg": {
         "save": {
-          "success": "設定檔儲存成功"
+          "success": "瑷畾妾斿劜瀛樻垚鍔?
         },
-        "invalidUrl": "無效的 URL",
+        "invalidUrl": "鐒℃晥鐨?URL",
         "add": {
-          "failure": "新增設定檔失敗"
+          "failure": "鏂板瑷畾妾斿け鏁?
         },
         "update": {
-          "success": "設定檔更新成功",
-          "successNamed": "「${name}」更新成功",
-          "failure": "更新設定檔失敗",
-          "failureNamed": "更新「${name}」失敗"
+          "success": "瑷畾妾旀洿鏂版垚鍔?,
+          "successNamed": "銆?{name}銆嶆洿鏂版垚鍔?,
+          "failure": "鏇存柊瑷畾妾斿け鏁?,
+          "failureNamed": "鏇存柊銆?{name}銆嶅け鏁?
         },
         "delete": {
-          "success": "設定檔刪除成功"
+          "success": "瑷畾妾斿埅闄ゆ垚鍔?
         }
       }
     },
     "profileDetails": {
-      "title": "設定檔",
-      "lastUpdate": "最後更新",
+      "title": "瑷畾妾?,
+      "lastUpdate": "鏈€寰屾洿鏂?,
       "form": {
-        "nameHint": "設定檔名稱",
-        "emptyName": "名稱為必填項",
-        "invalidUrl": "無效的 URL",
-        "urlHint": "完整的設定 URL",
-        "disableAutoUpdate": "停用自動更新",
-        "autoUpdateInterval": "自動更新間隔",
-        "loading": "正在新增設定檔..."
+        "nameHint": "瑷畾妾斿悕绋?,
+        "emptyName": "鍚嶇ū鐐哄繀濉爡",
+        "invalidUrl": "鐒℃晥鐨?URL",
+        "urlHint": "瀹屾暣鐨勮ō瀹?URL",
+        "disableAutoUpdate": "鍋滅敤鑷嫊鏇存柊",
+        "autoUpdateInterval": "鑷嫊鏇存柊闁撻殧",
+        "loading": "姝ｅ湪鏂板瑷畾妾?.."
       }
     },
     "logs": {
-      "title": "日誌",
-      "shareCoreLogs": "分享核心日誌",
-      "shareAppLogs": "分享應用程式日誌"
+      "title": "鏃ヨ獙",
+      "shareCoreLogs": "鍒嗕韩鏍稿績鏃ヨ獙",
+      "shareAppLogs": "鍒嗕韩鎳夌敤绋嬪紡鏃ヨ獙"
     },
     "about": {
-      "title": "關於",
-      "notAvailableMsg": "已是最新版本",
-      "checkForUpdate": "檢查更新",
-      "openWorkingDir": "開啟工作目錄",
-      "sourceCode": "原始碼",
-      "telegramChannel": "Telegram 頻道",
-      "termsAndConditions": "條款與條件",
-      "privacyPolicy": "隱私權政策"
+      "title": "闂滄柤",
+      "notAvailableMsg": "宸叉槸鏈€鏂扮増鏈?,
+      "checkForUpdate": "妾㈡煡鏇存柊",
+      "openWorkingDir": "闁嬪暉宸ヤ綔鐩寗",
+      "sourceCode": "鍘熷纰?,
+      "telegramChannel": "Telegram 闋婚亾",
+      "termsAndConditions": "姊濇鑸囨浠?,
+      "privacyPolicy": "闅辩娆婃斂绛?
     },
     "settings": {
-      "title": "設定",
-      "resetTunnel": "重設 VPN 設定檔",
+      "title": "瑷畾",
+      "resetTunnel": "閲嶈ō VPN 瑷畾妾?,
       "options": {
         "import": {
-          "clipboard": "從剪貼簿匯入選項",
-          "file": "從檔案匯入選項"
+          "clipboard": "寰炲壀璨肩翱鍖叆閬搁爡",
+          "file": "寰炴獢妗堝尟鍏ラ伕闋?
         },
         "export": {
-          "anonymousToClipboard": "複製匿名選項到剪貼簿",
-          "anonymousToFile": "匯出匿名選項到檔案",
-          "allToClipboard": "複製所有選項到剪貼簿",
-          "allToFile": "匯出所有選項到檔案"
+          "anonymousToClipboard": "瑜囪＝鍖垮悕閬搁爡鍒板壀璨肩翱",
+          "anonymousToFile": "鍖嚭鍖垮悕閬搁爡鍒版獢妗?,
+          "allToClipboard": "瑜囪＝鎵€鏈夐伕闋呭埌鍓布绨?,
+          "allToFile": "鍖嚭鎵€鏈夐伕闋呭埌妾旀"
         },
-        "reset": "重設選項"
+        "reset": "閲嶈ō閬搁爡"
       },
       "general": {
-        "title": "一般",
-        "locale": "語言",
-        "themeMode": "主題模式",
+        "title": "涓€鑸?,
+        "locale": "瑾炶█",
+        "themeMode": "涓婚妯″紡",
         "themeModes": {
-          "system": "跟隨系統",
-          "dark": "深色模式",
-          "light": "淺色模式",
-          "black": "純黑模式"
+          "system": "璺熼毃绯荤当",
+          "dark": "娣辫壊妯″紡",
+          "light": "娣鸿壊妯″紡",
+          "black": "绱旈粦妯″紡"
         },
-        "enableAnalytics": "啟用分析",
-        "enableAnalyticsMsg": "允許收集分析資料和傳送崩潰報告以改進應用程式",
-        "autoIpCheck": "自動檢查連線 IP",
-        "dynamicNotification": "在通知中顯示速度",
-        "hapticFeedback": "觸覺回饋",
-        "actionAtClosing": "關閉時操作",
-        "autoStart": "開機自啟",
-        "silentStart": "靜默啟動",
-        "ignoreBatteryOptimizations": "忽略電池最佳化",
-        "ignoreBatteryOptimizationsMsg": "移除限制以獲得最佳 VPN 效能",
-        "memoryLimit": "記憶體限制",
-        "memoryLimitMsg": "如果您遇到記憶體不足錯誤或應用程式頻繁崩潰，請啟用此選項",
-        "debugMode": "偵錯模式",
-        "debugModeMsg": "重新啟動應用程式以套用此變更",
-        "logLevel": "日誌級別",
-        "connectionTestUrl": "連線測試 URL",
-        "urlTestInterval": "URL 測試間隔",
-        "clashApiPort": "Clash API 連接埠",
-        "useXrayCoreWhenPossible": "盡可能使用 xray-core",
-        "useXrayCoreWhenPossibleMsg": "解析訂閱連結時使用 xray-core。您需要重新匯入訂閱連結才能啟用此選項"
+        "enableAnalytics": "鍟熺敤鍒嗘瀽",
+        "enableAnalyticsMsg": "鍏佽ū鏀堕泦鍒嗘瀽璩囨枡鍜屽偝閫佸穿娼板牨鍛婁互鏀归€叉噳鐢ㄧ▼寮?,
+        "autoIpCheck": "鑷嫊妾㈡煡閫ｇ窔 IP",
+        "dynamicNotification": "鍦ㄩ€氱煡涓’绀洪€熷害",
+        "hapticFeedback": "瑙歌鍥為",
+        "actionAtClosing": "闂滈枆鏅傛搷浣?,
+        "autoStart": "闁嬫鑷暉",
+        "silentStart": "闈滈粯鍟熷嫊",
+        "ignoreBatteryOptimizations": "蹇界暐闆绘睜鏈€浣冲寲",
+        "ignoreBatteryOptimizationsMsg": "绉婚櫎闄愬埗浠ョ嵅寰楁渶浣?VPN 鏁堣兘",
+        "memoryLimit": "瑷樻喍楂旈檺鍒?,
+        "memoryLimitMsg": "濡傛灉鎮ㄩ亣鍒拌鎲堕珨涓嶈冻閷鎴栨噳鐢ㄧ▼寮忛牷绻佸穿娼帮紝璜嬪暉鐢ㄦ閬搁爡",
+        "debugMode": "鍋甸尟妯″紡",
+        "debugModeMsg": "閲嶆柊鍟熷嫊鎳夌敤绋嬪紡浠ュ鐢ㄦ璁婃洿",
+        "logLevel": "鏃ヨ獙绱氬垾",
+        "connectionTestUrl": "閫ｇ窔娓│ URL",
+        "urlTestInterval": "URL 娓│闁撻殧",
+        "clashApiPort": "Clash API 閫ｆ帴鍩?,
+        "useXrayCoreWhenPossible": "鐩″彲鑳戒娇鐢?xray-core",
+        "useXrayCoreWhenPossibleMsg": "瑙ｆ瀽瑷傞柋閫ｇ祼鏅備娇鐢?xray-core銆傛偍闇€瑕侀噸鏂板尟鍏ヨ▊闁遍€ｇ祼鎵嶈兘鍟熺敤姝ら伕闋?
       },
       "routing": {
-        "title": "路由",
+        "title": "璺敱",
         "perAppProxy": {
-          "title": "依應用程式代理",
-          "hideSysApps": "隱藏系統應用程式",
+          "title": "渚濇噳鐢ㄧ▼寮忎唬鐞?,
+          "hideSysApps": "闅辫棌绯荤当鎳夌敤绋嬪紡",
           "options": {
             "import": {
-              "clipboard": "從剪貼簿匯入選擇",
-              "file": "從檔案匯入選擇",
-              "msg": "匯入將取代您目前的選擇。確定要繼續嗎？"
+              "clipboard": "寰炲壀璨肩翱鍖叆閬告搰",
+              "file": "寰炴獢妗堝尟鍏ラ伕鎿?,
+              "msg": "鍖叆灏囧彇浠ｆ偍鐩墠鐨勯伕鎿囥€傜⒑瀹氳绻肩簩鍡庯紵"
             },
             "export": {
-              "clipboard": "複製選擇到剪貼簿",
-              "file": "匯出選擇到檔案"
+              "clipboard": "瑜囪＝閬告搰鍒板壀璨肩翱",
+              "file": "鍖嚭閬告搰鍒版獢妗?
             },
-            "shareToAll": "分享給所有人",
-            "clearAllSelections": "清除所有選擇"
+            "shareToAll": "鍒嗕韩绲︽墍鏈変汉",
+            "clearAllSelections": "娓呴櫎鎵€鏈夐伕鎿?
           },
           "modes": {
-            "all": "全部",
-            "proxy": "代理",
-            "bypass": "繞過",
-            "allMsg": "代理所有應用程式",
-            "proxyMsg": "僅代理選定應用程式",
-            "bypassMsg": "不代理選定應用程式"
+            "all": "鍏ㄩ儴",
+            "proxy": "浠ｇ悊",
+            "bypass": "绻為亷",
+            "allMsg": "浠ｇ悊鎵€鏈夋噳鐢ㄧ▼寮?,
+            "proxyMsg": "鍍呬唬鐞嗛伕瀹氭噳鐢ㄧ▼寮?,
+            "bypassMsg": "涓嶄唬鐞嗛伕瀹氭噳鐢ㄧ▼寮?
           },
           "autoSelection": {
-            "title": "自動選擇",
-            "performNow": "立即執行",
-            "resetToDefault": "重設為預設",
-            "autoUpdateInterval": "自動更新間隔",
+            "title": "鑷嫊閬告搰",
+            "performNow": "绔嬪嵆鍩疯",
+            "resetToDefault": "閲嶈ō鐐洪爯瑷?,
+            "autoUpdateInterval": "鑷嫊鏇存柊闁撻殧",
             "toast": {
-              "success": "自動選擇應用程式成功完成",
-              "failure": "自動選擇失敗",
-              "regionNotFound": "未找到「${region}」地區的自動選擇",
-              "alreadyInAuto": "您的選擇已在自動清單中"
+              "success": "鑷嫊閬告搰鎳夌敤绋嬪紡鎴愬姛瀹屾垚",
+              "failure": "鑷嫊閬告搰澶辨晽",
+              "regionNotFound": "鏈壘鍒般€?{region}銆嶅湴鍗€鐨勮嚜鍕曢伕鎿?,
+              "alreadyInAuto": "鎮ㄧ殑閬告搰宸插湪鑷嫊娓呭柈涓?
             },
             "dialog": {
-              "title": "自動選擇應用程式",
-              "msg": "由於地區更改為「${region}」，依應用程式代理的自動選擇功能已被停用"
+              "title": "鑷嫊閬告搰鎳夌敤绋嬪紡",
+              "msg": "鐢辨柤鍦板崁鏇存敼鐐恒€?{region}銆嶏紝渚濇噳鐢ㄧ▼寮忎唬鐞嗙殑鑷嫊閬告搰鍔熻兘宸茶鍋滅敤"
             }
           }
         },
-        "region": "地區",
+        "region": "鍦板崁",
         "regions": {
-          "ir": "伊朗 (ir)",
-          "cn": "中國 (cn)",
-          "ru": "俄羅斯 (ru)",
-          "af": "阿富汗 (af)",
-          "id": "印尼 (id)",
-          "tr": "土耳其 (tr)",
-          "br": "巴西 (br)",
-          "other": "其他"
+          "ir": "浼婃湕 (ir)",
+          "cn": "涓湅 (cn)",
+          "ru": "淇勭緟鏂?(ru)",
+          "af": "闃垮瘜姹?(af)",
+          "id": "鍗板凹 (id)",
+          "tr": "鍦熻€冲叾 (tr)",
+          "br": "宸磋タ (br)",
+          "other": "鍏朵粬"
         },
         "balancerStrategy": {
-          "title": "Balancer 策略",
+          "title": "Balancer 绛栫暐",
           "roundRobin": "Round robin",
           "consistentHash": "Consistent hash",
           "stickySession": "Sticky session"
         },
-        "blockAds": "攔截廣告",
-        "bypassLan": "繞過區域網路",
-        "resolveDestination": "解析目的地",
-        "ipv6Route": "IPv6 路由",
+        "blockAds": "鏀旀埅寤ｅ憡",
+        "bypassLan": "绻為亷鍗€鍩熺恫璺?,
+        "resolveDestination": "瑙ｆ瀽鐩殑鍦?,
+        "ipv6Route": "IPv6 璺敱",
         "ipv6Modes": {
-          "disable": "停用",
-          "enable": "啟用",
-          "prefer": "首選",
-          "only": "僅"
+          "disable": "鍋滅敤",
+          "enable": "鍟熺敤",
+          "prefer": "棣栭伕",
+          "only": "鍍?
         },
         "routeRule": {
-          "title": "路由規則",
+          "title": "璺敱瑕忓墖",
           "options": {
             "import": {
-              "clipboard": "從剪貼簿匯入規則",
-              "file": "從檔案匯入規則"
+              "clipboard": "寰炲壀璨肩翱鍖叆瑕忓墖",
+              "file": "寰炴獢妗堝尟鍏ヨ鍓?
             },
             "export": {
-              "clipboard": "複製規則到剪貼簿",
-              "file": "儲存規則到檔案"
+              "clipboard": "瑜囪＝瑕忓墖鍒板壀璨肩翱",
+              "file": "鍎插瓨瑕忓墖鍒版獢妗?
             },
-            "reset": "重設規則"
+            "reset": "閲嶈ō瑕忓墖"
           },
-          "deleteRule": "刪除規則",
-          "createRule": "建立新規則",
+          "deleteRule": "鍒櫎瑕忓墖",
+          "createRule": "寤虹珛鏂拌鍓?,
           "rule": {
-            "title": "規則",
-            "ruleChanged": "規則已變更",
-            "ruleChangedMsg": "您想儲存您的編輯嗎？",
-            "onlyTunMode": "僅在 TUN 模式下可用",
-            "notAvailabeInThisPlatform": "在此平台上不可用",
-            "canNotBeEmpty": "不能為空",
+            "title": "瑕忓墖",
+            "ruleChanged": "瑕忓墖宸茶畩鏇?,
+            "ruleChangedMsg": "鎮ㄦ兂鍎插瓨鎮ㄧ殑绶ㄨ集鍡庯紵",
+            "onlyTunMode": "鍍呭湪 TUN 妯″紡涓嬪彲鐢?,
+            "notAvailabeInThisPlatform": "鍦ㄦ骞冲彴涓婁笉鍙敤",
+            "canNotBeEmpty": "涓嶈兘鐐虹┖",
             "validUrlEx": "https://example.com",
-            "validUrl": "有效的「URL」，例如\n@:pages.settings.routing.routeRule.rule.validUrlEx",
-            "validProcessNameEx": "Chrome.exe 或 google chrome 或 chrome",
-            "validProcessName": "有效的「處理程序名稱」，例如\n@:pages.settings.routing.routeRule.rule.validProcessNameEx",
+            "validUrl": "鏈夋晥鐨勩€孶RL銆嶏紝渚嬪\n@:pages.settings.routing.routeRule.rule.validUrlEx",
+            "validProcessNameEx": "Chrome.exe 鎴?google chrome 鎴?chrome",
+            "validProcessName": "鏈夋晥鐨勩€岃檿鐞嗙▼搴忓悕绋便€嶏紝渚嬪\n@:pages.settings.routing.routeRule.rule.validProcessNameEx",
             "validProcessPathEx": "C:\\Pro...\\chrome.exe\n/App.../Google Chrome\n/usr/lib.../chrome",
-            "validProcessPath": "有效的「處理程序路徑」，例如\n@:pages.settings.routing.routeRule.rule.validProcessPathEx",
-            "validPortRangeEx": "80 或 1-65000",
-            "validPortRange": "有效的「連接埠」或「連接埠範圍」，例如\n@:pages.settings.routing.routeRule.rule.validPortRangeEx",
-            "validIpCidrEx": "8.8.8.8 或 10.0.0.0/24",
-            "validIpCidr": "有效的 IP CIDR，例如\n@:pages.settings.routing.routeRule.rule.validIpCidrEx",
-            "validDomainEx": "Google.com 或 dl.google.com",
-            "validDomain": "有效的「網域」，例如\n@:pages.settings.routing.routeRule.rule.validDomainEx",
-            "validDomainSuffixEx": ".com 或 .tw",
-            "validDomainSuffix": "有效的「網域後綴」，例如\n@:pages.settings.routing.routeRule.rule.validDomainSuffixEx",
+            "validProcessPath": "鏈夋晥鐨勩€岃檿鐞嗙▼搴忚矾寰戙€嶏紝渚嬪\n@:pages.settings.routing.routeRule.rule.validProcessPathEx",
+            "validPortRangeEx": "80 鎴?1-65000",
+            "validPortRange": "鏈夋晥鐨勩€岄€ｆ帴鍩犮€嶆垨銆岄€ｆ帴鍩犵瘎鍦嶃€嶏紝渚嬪\n@:pages.settings.routing.routeRule.rule.validPortRangeEx",
+            "validIpCidrEx": "8.8.8.8 鎴?10.0.0.0/24",
+            "validIpCidr": "鏈夋晥鐨?IP CIDR锛屼緥濡俓n@:pages.settings.routing.routeRule.rule.validIpCidrEx",
+            "validDomainEx": "Google.com 鎴?dl.google.com",
+            "validDomain": "鏈夋晥鐨勩€岀恫鍩熴€嶏紝渚嬪\n@:pages.settings.routing.routeRule.rule.validDomainEx",
+            "validDomainSuffixEx": ".com 鎴?.tw",
+            "validDomainSuffix": "鏈夋晥鐨勩€岀恫鍩熷緦缍淬€嶏紝渚嬪\n@:pages.settings.routing.routeRule.rule.validDomainSuffixEx",
             "tileTitle(map)": {
-              "name": "名稱",
-              "outbound": "符合時出站",
-              "rule_set": "規則集 URL",
-              "package_name": "套件名稱",
-              "process_name": "處理程序名稱",
-              "process_path": "處理程序路徑",
-              "network": "網路",
-              "port_range": "目標連接埠",
-              "source_port_range": "來源連接埠",
-              "protocol": "協定",
-              "ip_cidr": "目標 IP CIDR",
-              "source_ip_cidr": "來源 IP CIDR",
-              "domain": "網域",
-              "domain_suffixe": "網域後綴",
-              "domain_keyword": "網域關鍵字",
-              "domain_regex": "網域正規表示式"
+              "name": "鍚嶇ū",
+              "outbound": "绗﹀悎鏅傚嚭绔?,
+              "rule_set": "瑕忓墖闆?URL",
+              "package_name": "濂椾欢鍚嶇ū",
+              "process_name": "铏曠悊绋嬪簭鍚嶇ū",
+              "process_path": "铏曠悊绋嬪簭璺緫",
+              "network": "缍茶矾",
+              "port_range": "鐩閫ｆ帴鍩?,
+              "source_port_range": "渚嗘簮閫ｆ帴鍩?,
+              "protocol": "鍗斿畾",
+              "ip_cidr": "鐩 IP CIDR",
+              "source_ip_cidr": "渚嗘簮 IP CIDR",
+              "domain": "缍插煙",
+              "domain_suffixe": "缍插煙寰岀洞",
+              "domain_keyword": "缍插煙闂滈嵉瀛?,
+              "domain_regex": "缍插煙姝ｈ琛ㄧず寮?
             },
             "outbound(map)": {
-              "proxy": "代理",
-              "direct": "直連",
-              "direct_with_fragment": "直連並分片",
-              "block": "攔截"
+              "proxy": "浠ｇ悊",
+              "direct": "鐩撮€?,
+              "direct_with_fragment": "鐩撮€ｄ甫鍒嗙墖",
+              "block": "鏀旀埅"
             },
             "network(map)": {
-              "all": "全部",
+              "all": "鍏ㄩ儴",
               "tcp": "TCP",
               "udp": "UDP"
             },
             "protocol(map)": {
-              "": "全部",
+              "": "鍏ㄩ儴",
               "tls": "TLS",
               "http": "HTTP",
               "quic": "QUIC",
@@ -374,270 +374,270 @@
             }
           },
           "genericList": {
-            "addNew": "新增值",
-            "update": "更新值",
-            "clearList": "清除清單",
-            "clearListMsg": "所有項目已刪除"
+            "addNew": "鏂板鍊?,
+            "update": "鏇存柊鍊?,
+            "clearList": "娓呴櫎娓呭柈",
+            "clearListMsg": "鎵€鏈夐爡鐩凡鍒櫎"
           },
           "androidApps": {
-            "pageTitle": "Android 應用程式",
-            "showSystemApps": "顯示系統應用程式",
-            "hideSystemApps": "隱藏系統應用程式",
-            "clearSelection": "清除選擇",
-            "uninstalled": "已解除安裝"
+            "pageTitle": "Android 鎳夌敤绋嬪紡",
+            "showSystemApps": "椤ず绯荤当鎳夌敤绋嬪紡",
+            "hideSystemApps": "闅辫棌绯荤当鎳夌敤绋嬪紡",
+            "clearSelection": "娓呴櫎閬告搰",
+            "uninstalled": "宸茶В闄ゅ畨瑁?
           }
         }
       },
       "dns": {
         "title": "DNS",
-        "remoteDns": "遠端 DNS",
-        "remoteDnsDomainStrategy": "遠端 DNS 網域策略",
-        "directDns": "出站伺服器解析器（直連）",
-        "directDnsDomainStrategy": "出站網域策略",
-        "enableDnsRouting": "啟用 DNS 路由",
-        "enableFakeDns": "啟用偽造 DNS",
+        "remoteDns": "閬犵 DNS",
+        "remoteDnsDomainStrategy": "閬犵 DNS 缍插煙绛栫暐",
+        "directDns": "鍑虹珯浼烘湇鍣ㄨВ鏋愬櫒锛堢洿閫ｏ級",
+        "directDnsDomainStrategy": "鍑虹珯缍插煙绛栫暐",
+        "enableDnsRouting": "鍟熺敤 DNS 璺敱",
+        "enableFakeDns": "鍟熺敤鍋介€?DNS",
         "domainStrategy": {
-          "auto": "自動",
-          "preferIpv6": "偏好 IPv6",
-          "preferIpv4": "偏好 IPv4",
-          "ipv4Only": "僅 IPv4",
-          "ipv6Only": "僅 IPv6"
+          "auto": "鑷嫊",
+          "preferIpv6": "鍋忓ソ IPv6",
+          "preferIpv4": "鍋忓ソ IPv4",
+          "ipv4Only": "鍍?IPv4",
+          "ipv6Only": "鍍?IPv6"
         }
       },
       "inbound": {
-        "title": "入站",
-        "serviceMode": "服務模式",
+        "title": "鍏ョ珯",
+        "serviceMode": "鏈嶅嫏妯″紡",
         "serviceModes": {
-          "proxy": "僅代理服務",
-          "systemProxy": "設定系統代理",
+          "proxy": "鍍呬唬鐞嗘湇鍕?,
+          "systemProxy": "瑷畾绯荤当浠ｇ悊",
           "tun": "VPN",
-          "tunService": "VPN 服務"
+          "tunService": "VPN 鏈嶅嫏"
         },
         "shortServiceModes": {
-          "proxy": "代理",
-          "systemProxy": "系統代理",
+          "proxy": "浠ｇ悊",
+          "systemProxy": "绯荤当浠ｇ悊",
           "tun": "VPN",
-          "tunService": "VPN 服務"
+          "tunService": "VPN 鏈嶅嫏"
         },
-        "strictRoute": "嚴格路由",
-        "tunImplementation": "TUN 實現",
+        "strictRoute": "鍤存牸璺敱",
+        "tunImplementation": "TUN 瀵︾従",
         "tunImplementations": {
-          "mixed": "混合",
-          "system": "系統",
+          "mixed": "娣峰悎",
+          "system": "绯荤当",
           "gvisor": "gVisor"
         },
-        "mixedPort": "混合連接埠",
-        "tproxyPort": "透明代理連接埠",
-        "directPort": "本地 Direct 連接埠",
-        "redirectPort": "重新導向連接埠",
-        "allowConnectionFromLan": "允許來自區域網路的連線"
+        "mixedPort": "娣峰悎閫ｆ帴鍩?,
+        "tproxyPort": "閫忔槑浠ｇ悊閫ｆ帴鍩?,
+        "directPort": "鏈湴 Direct 閫ｆ帴鍩?,
+        "redirectPort": "閲嶆柊灏庡悜閫ｆ帴鍩?,
+        "allowConnectionFromLan": "鍏佽ū渚嗚嚜鍗€鍩熺恫璺殑閫ｇ窔"
       },
       "tlsTricks": {
-        "title": "TLS 技巧",
-        "enable": "啟用分片",
-        "packets": "分片封包",
+        "title": "TLS 鎶€宸?,
+        "enable": "鍟熺敤鍒嗙墖",
+        "packets": "鍒嗙墖灏佸寘",
         "packetsTlsHello": "TLS Hello",
         "packets1_1": "1-1",
         "packets1_2": "1-2",
         "packets1_3": "1-3",
         "packets1_4": "1-4",
         "packets1_5": "1-5",
-        "size": "分片大小",
-        "sleep": "分片延遲",
+        "size": "鍒嗙墖澶у皬",
+        "sleep": "鍒嗙墖寤堕伈",
         "mixedSniCase": {
-          "enable": "啟用混合大小寫 SNI"
+          "enable": "鍟熺敤娣峰悎澶у皬瀵?SNI"
         },
         "padding": {
-          "enable": "啟用填充",
-          "size": "填充大小"
+          "enable": "鍟熺敤濉厖",
+          "size": "濉厖澶у皬"
         }
       },
       "warp": {
         "title": "WARP",
-        "enable": "啟用 WARP",
-        "generateConfig": "產生 WARP 設定",
-        "configGenerated": "WARP 設定已產生",
-        "missingConfig": "WARP 設定缺失",
-        "detourMode": "WARP 路由模式",
+        "enable": "鍟熺敤 WARP",
+        "generateConfig": "鐢㈢敓 WARP 瑷畾",
+        "configGenerated": "WARP 瑷畾宸茬敘鐢?,
+        "missingConfig": "WARP 瑷畾缂哄け",
+        "detourMode": "WARP 璺敱妯″紡",
         "detourModes": {
-          "proxyOverWarp": "透過 WARP 路由代理",
-          "warpOverProxy": "透過代理路由 WARP",
-          "proxyOverWarpExplain": "透過 WARP 解鎖代理",
-          "warpOverProxyExplain": "透過 WARP 增強安全性"
+          "proxyOverWarp": "閫忛亷 WARP 璺敱浠ｇ悊",
+          "warpOverProxy": "閫忛亷浠ｇ悊璺敱 WARP",
+          "proxyOverWarpExplain": "閫忛亷 WARP 瑙ｉ帠浠ｇ悊",
+          "warpOverProxyExplain": "閫忛亷 WARP 澧炲挤瀹夊叏鎬?
         },
-        "licenseKey": "授權金鑰",
-        "cleanIp": "優選 IP",
-        "port": "連接埠",
+        "licenseKey": "鎺堟瑠閲戦懓",
+        "cleanIp": "鍎伕 IP",
+        "port": "閫ｆ帴鍩?,
         "noise": {
-          "count": "噪音數量",
-          "mode": "噪音模式",
-          "size": "噪音大小",
-          "delay": "噪音延遲"
+          "count": "鍣煶鏁搁噺",
+          "mode": "鍣煶妯″紡",
+          "size": "鍣煶澶у皬",
+          "delay": "鍣煶寤堕伈"
         }
       }
     }
   },
   "components": {
     "stats": {
-      "connection": "連線",
-      "traffic": "流量",
-      "trafficLive": "即時流量",
-      "trafficTotal": "總流量",
-      "uplink": "上傳",
-      "downlink": "下載",
-      "speed": "速度",
-      "totalTransferred": "總傳輸量"
+      "connection": "閫ｇ窔",
+      "traffic": "娴侀噺",
+      "trafficLive": "鍗虫檪娴侀噺",
+      "trafficTotal": "绺芥祦閲?,
+      "uplink": "涓婂偝",
+      "downlink": "涓嬭級",
+      "speed": "閫熷害",
+      "totalTransferred": "绺藉偝杓搁噺"
     },
     "subscriptionInfo": {
-      "upload": "上傳",
-      "download": "下載",
-      "total": "總流量",
-      "expireDate": "到期日期",
-      "expired": "已到期",
-      "noTraffic": "流量已用盡",
-      "remainingTime": "剩餘時間",
-      "remainingDuration": "剩餘 ${duration} 天",
-      "remainingDurationNew": "${duration} 天",
-      "remainingTrafficSemanticLabel": "已使用 ${consumed} / ${total} 流量",
-      "remainingTraffic": "剩餘流量",
-      "remainingUsage": "剩餘",
-      "profileSite": "提供商",
-      "profileSupport": "支援"
+      "upload": "涓婂偝",
+      "download": "涓嬭級",
+      "total": "绺芥祦閲?,
+      "expireDate": "鍒版湡鏃ユ湡",
+      "expired": "宸插埌鏈?,
+      "noTraffic": "娴侀噺宸茬敤鐩?,
+      "remainingTime": "鍓╅鏅傞枔",
+      "remainingDuration": "鍓╅ ${duration} 澶?,
+      "remainingDurationNew": "${duration} 澶?,
+      "remainingTrafficSemanticLabel": "宸蹭娇鐢?${consumed} / ${total} 娴侀噺",
+      "remainingTraffic": "鍓╅娴侀噺",
+      "remainingUsage": "鍓╅",
+      "profileSite": "鎻愪緵鍟?,
+      "profileSupport": "鏀彺"
     }
   },
   "dialogs": {
     "sortProfiles": {
-      "title": "排序方式",
+      "title": "鎺掑簭鏂瑰紡",
       "sort": {
-        "name": "按字母順序",
-        "lastUpdate": "最近更新"
+        "name": "鎸夊瓧姣嶉爢搴?,
+        "lastUpdate": "鏈€杩戞洿鏂?
       }
     },
     "warpLicense": {
-      "title": "Cloudflare WARP 同意書",
-      "description(rich)": "Cloudflare WARP 是一個免費的 WireGuard VPN 提供商。啟用此選項即表示您同意 Cloudflare WARP 的 ${tos(服務條款)} 和 ${privacy(隱私權政策)}。"
+      "title": "Cloudflare WARP 鍚屾剰鏇?,
+      "description(rich)": "Cloudflare WARP 鏄竴鍊嬪厤璨荤殑 WireGuard VPN 鎻愪緵鍟嗐€傚暉鐢ㄦ閬搁爡鍗宠〃绀烘偍鍚屾剰 Cloudflare WARP 鐨?${tos(鏈嶅嫏姊濇)} 鍜?${privacy(闅辩娆婃斂绛?}銆?
     },
     "newVersion": {
-      "title": "有可用更新",
-      "msg": "@:common.appTitle 的新版本已發布。您想立即更新嗎？",
-      "currentVersion": "目前版本：",
-      "newVersion": "新版本：",
-      "updateNow": "立即更新"
+      "title": "鏈夊彲鐢ㄦ洿鏂?,
+      "msg": "@:common.appTitle 鐨勬柊鐗堟湰宸茬櫦甯冦€傛偍鎯崇珛鍗虫洿鏂板棊锛?,
+      "currentVersion": "鐩墠鐗堟湰锛?,
+      "newVersion": "鏂扮増鏈細",
+      "updateNow": "绔嬪嵆鏇存柊"
     },
     "confirmation": {
       "settings": {
         "import": {
-          "msg": "這會使用提供的值覆蓋所有設定選項。您確定嗎？"
+          "msg": "閫欐渻浣跨敤鎻愪緵鐨勫€艰钃嬫墍鏈夎ō瀹氶伕闋呫€傛偍纰哄畾鍡庯紵"
         }
       },
       "profile": {
         "delete": {
-          "title": "刪除設定檔",
-          "msg": "您確定要永久刪除此設定檔嗎？"
+          "title": "鍒櫎瑷畾妾?,
+          "msg": "鎮ㄧ⒑瀹氳姘镐箙鍒櫎姝よō瀹氭獢鍡庯紵"
         }
       },
       "perAppProxy": {
         "shareOnGithub": {
-          "title": "改進自動選擇",
-          "msg": "透過分享您選擇的應用程式，可以幫助完善「自動選擇」清單"
+          "title": "鏀归€茶嚜鍕曢伕鎿?,
+          "msg": "閫忛亷鍒嗕韩鎮ㄩ伕鎿囩殑鎳夌敤绋嬪紡锛屽彲浠ュ公鍔╁畬鍠勩€岃嚜鍕曢伕鎿囥€嶆竻鍠?
         },
         "import": {
-          "msg": "這將取代您目前所有的依應用程式代理選擇。您確定要繼續嗎？"
+          "msg": "閫欏皣鍙栦唬鎮ㄧ洰鍓嶆墍鏈夌殑渚濇噳鐢ㄧ▼寮忎唬鐞嗛伕鎿囥€傛偍纰哄畾瑕佺辜绾屽棊锛?
         }
       },
       "routeRule": {
         "delete": {
-          "title": "刪除規則",
-          "msg": "您確定要刪除規則「$rulename」嗎？"
+          "title": "鍒櫎瑕忓墖",
+          "msg": "鎮ㄧ⒑瀹氳鍒櫎瑕忓墖銆?rulename銆嶅棊锛?
         }
       }
     },
     "experimentalNotice": {
-      "title": "正在使用實驗性功能",
-      "msg": "您已啟用了一些實驗性功能，這可能會影響連線品質並導致意外錯誤。您可以隨時在設定選項頁面變更或重設這些選項。",
-      "disable": "不再顯示"
+      "title": "姝ｅ湪浣跨敤瀵﹂鎬у姛鑳?,
+      "msg": "鎮ㄥ凡鍟熺敤浜嗕竴浜涘椹楁€у姛鑳斤紝閫欏彲鑳芥渻褰遍熆閫ｇ窔鍝佽唱涓﹀皫鑷存剰澶栭尟瑾ゃ€傛偍鍙互闅ㄦ檪鍦ㄨō瀹氶伕闋呴爜闈㈣畩鏇存垨閲嶈ō閫欎簺閬搁爡銆?,
+      "disable": "涓嶅啀椤ず"
     },
     "noActiveProfile": {
-      "title": "選擇一個設定檔",
-      "msg": "讓我們從新增一個包含您 VPN 連線詳細資訊的設定檔開始。\n\n還沒有 VPN 伺服器？別擔心，按照下面的教學，您可以快速免費地設定一個。",
+      "title": "閬告搰涓€鍊嬭ō瀹氭獢",
+      "msg": "璁撴垜鍊戝緸鏂板涓€鍊嬪寘鍚偍 VPN 閫ｇ窔瑭崇窗璩囪▕鐨勮ō瀹氭獢闁嬪銆俓n\n閭勬矑鏈?VPN 浼烘湇鍣紵鍒ユ摂蹇冿紝鎸夌収涓嬮潰鐨勬暀瀛革紝鎮ㄥ彲浠ュ揩閫熷厤璨诲湴瑷畾涓€鍊嬨€?,
       "helpBtn": {
-        "label": "告訴我如何操作",
+        "label": "鍛婅ù鎴戝浣曟搷浣?,
         "url": "https://hiddify.com/manager/"
       }
     },
     "unknownDomainsWarning": {
-      "title": "外部連結警告",
-      "youAreAboutToVisit": "您即將造訪：",
-      "thisWebsiteIsNotInOurTrustedList": "此網站不在我們的信任清單中。請謹慎操作。"
+      "title": "澶栭儴閫ｇ祼璀﹀憡",
+      "youAreAboutToVisit": "鎮ㄥ嵆灏囬€犺í锛?,
+      "thisWebsiteIsNotInOurTrustedList": "姝ょ恫绔欎笉鍦ㄦ垜鍊戠殑淇′换娓呭柈涓€傝珛璎规厧鎿嶄綔銆?
     },
     "proxyInfo": {
-      "fullTag": "完整標籤：",
-      "type": "類型：",
-      "testTime": "測試時間：",
-      "testDelay": "測試延遲：",
-      "isSelected": "已選擇：",
-      "isGroup": "是群組",
-      "isSecure": "安全：",
-      "port": "連接埠：",
-      "host": "主機：",
-      "ip": "IP：",
-      "countryCode": "國家代碼：",
-      "region": "地區：",
-      "city": "城市：",
-      "asn": "ASN：",
-      "organization": "組織：",
-      "location": "位置：",
-      "postalCode": "郵遞區號："
+      "fullTag": "瀹屾暣妯欑堡锛?,
+      "type": "椤炲瀷锛?,
+      "testTime": "娓│鏅傞枔锛?,
+      "testDelay": "娓│寤堕伈锛?,
+      "isSelected": "宸查伕鎿囷細",
+      "isGroup": "鏄兢绲?,
+      "isSecure": "瀹夊叏锛?,
+      "port": "閫ｆ帴鍩狅細",
+      "host": "涓绘锛?,
+      "ip": "IP锛?,
+      "countryCode": "鍦嬪浠ｇ⒓锛?,
+      "region": "鍦板崁锛?,
+      "city": "鍩庡競锛?,
+      "asn": "ASN锛?,
+      "organization": "绲勭箶锛?,
+      "location": "浣嶇疆锛?,
+      "postalCode": "閮甸仦鍗€铏燂細"
     },
     "windowClosing": {
-      "askEachTime": "每次詢問",
-      "alertMessage": "隱藏還是退出應用程式？",
-      "remember": "記住我的選擇"
+      "askEachTime": "姣忔瑭㈠晱",
+      "alertMessage": "闅辫棌閭勬槸閫€鍑烘噳鐢ㄧ▼寮忥紵",
+      "remember": "瑷樹綇鎴戠殑閬告搰"
     }
   },
   "connection": {
-    "tapToConnect": "點擊連線",
-    "connect": "連線",
-    "connecting": "連線中...",
-    "connected": "已連線",
-    "disconnect": "中斷連線",
-    "disconnecting": "中斷連線中...",
-    "reconnect": "重新連線",
-    "reconnectMsg": "正在重新連線以套用變更...",
-    "secure": "由 WARP 保護"
+    "tapToConnect": "榛炴搳閫ｇ窔",
+    "connect": "閫ｇ窔",
+    "connecting": "閫ｇ窔涓?..",
+    "connected": "宸查€ｇ窔",
+    "disconnect": "涓柗閫ｇ窔",
+    "disconnecting": "涓柗閫ｇ窔涓?..",
+    "reconnect": "閲嶆柊閫ｇ窔",
+    "reconnectMsg": "姝ｅ湪閲嶆柊閫ｇ窔浠ュ鐢ㄨ畩鏇?..",
+    "secure": "鐢?WARP 淇濊"
   },
   "errors": {
-    "unexpected": "意外錯誤",
+    "unexpected": "鎰忓閷",
     "connection": {
-      "unexpected": "意外連線錯誤",
-      "timeout": "連線超時",
-      "badResponse": "回應錯誤",
-      "connectionError": "連線錯誤",
-      "badCertificate": "憑證無效"
+      "unexpected": "鎰忓閫ｇ窔閷",
+      "timeout": "閫ｇ窔瓒呮檪",
+      "badResponse": "鍥炴噳閷",
+      "connectionError": "閫ｇ窔閷",
+      "badCertificate": "鎲戣瓑鐒℃晥"
     },
     "profiles": {
-      "unexpected": "意外錯誤",
-      "notFound": "未找到設定檔",
-      "invalidConfig": "設定無效",
-      "invalidUrl": "URL 無效",
-      "canceledByUser": "使用者已取消"
+      "unexpected": "鎰忓閷",
+      "notFound": "鏈壘鍒拌ō瀹氭獢",
+      "invalidConfig": "瑷畾鐒℃晥",
+      "invalidUrl": "URL 鐒℃晥",
+      "canceledByUser": "浣跨敤鑰呭凡鍙栨秷"
     },
     "connectivity": {
-      "unexpected": "意外失敗",
-      "missingVpnPermission": "缺少 VPN 權限",
-      "missingNotificationPermission": "缺少通知權限",
-      "core": "核心錯誤"
+      "unexpected": "鎰忓澶辨晽",
+      "missingVpnPermission": "缂哄皯 VPN 娆婇檺",
+      "missingNotificationPermission": "缂哄皯閫氱煡娆婇檺",
+      "core": "鏍稿績閷"
     },
     "singbox": {
-      "serviceNotRunning": "服務未運行",
-      "missingPrivilege": "缺少權限",
-      "missingPrivilegeMsg": "VPN 模式需要管理員權限。請以管理員身份重新啟動應用，或更改服務模式。",
-      "invalidConfigOptions": "設定選項無效",
-      "invalidConfig": "設定無效"
+      "serviceNotRunning": "鏈嶅嫏鏈亱琛?,
+      "missingPrivilege": "缂哄皯娆婇檺",
+      "missingPrivilegeMsg": "VPN 妯″紡闇€瑕佺鐞嗗摗娆婇檺銆傝珛浠ョ鐞嗗摗韬唤閲嶆柊鍟熷嫊鎳夌敤锛屾垨鏇存敼鏈嶅嫏妯″紡銆?,
+      "invalidConfigOptions": "瑷畾閬搁爡鐒℃晥",
+      "invalidConfig": "瑷畾鐒℃晥"
     },
     "warp": {
-      "missingLicense": "WARP 授權缺失",
-      "missingLicenseMsg": "所選設定檔使用 WARP 功能；要使用此功能，必須同意 WARP 授權條款。"
+      "missingLicense": "WARP 鎺堟瑠缂哄け",
+      "missingLicenseMsg": "鎵€閬歌ō瀹氭獢浣跨敤 WARP 鍔熻兘锛涜浣跨敤姝ゅ姛鑳斤紝蹇呴爤鍚屾剰 WARP 鎺堟瑠姊濇銆?
     }
   }
 }

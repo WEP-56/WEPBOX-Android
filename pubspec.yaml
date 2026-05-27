@@ -167,6 +167,7 @@ flutter:
     - assets/images/tray_icon_disconnected.png
     - assets/images/connect_norouz.PNG
     - assets/images/disconnect_norouz.PNG
+    - assets/images/wepbox_logo.png
     - assets/images/world_map.png
     - assets/images/source/ic_launcher_border.png
 
@@ -188,11 +189,11 @@ flutter_gen:
 
 flutter_native_splash:
   color: "#ffffff"
-  image: assets/images/source/ic_launcher_splash.png
+  image: assets/images/source/wepbox_logo.png
   android_gravity: center
   android_12:
     color: "#ffffff"
-    image: assets/images/source/ic_launcher_foreground.png
+    image: assets/images/source/wepbox_logo.png
 
 ffigen:
   name: "HiddifyCoreNativeLibrary"

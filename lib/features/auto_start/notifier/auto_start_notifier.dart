@@ -19,7 +19,7 @@ class AutoStartNotifier extends _$AutoStartNotifier with InfraLogger {
     launchAtStartup.setup(
       appName: appInfo.name,
       appPath: Platform.resolvedExecutable,
-      packageName: "Hiddify.HiddifyNext",
+      packageName: "WEPBOX.WEPBOX",
     );
     final isEnabled = await launchAtStartup.isEnabled();
     loggy.info("auto start is [${isEnabled ? "Enabled" : "Disabled"}]");
@@ -30,7 +30,10 @@ class AutoStartNotifier extends _$AutoStartNotifier with InfraLogger {
 
   void _startTimer() {
     _timer?.cancel();
-    _timer = Timer.periodic(const Duration(minutes: 15), (timer) => updateStatus());
+    _timer = Timer.periodic(
+      const Duration(minutes: 15),
+      (timer) => updateStatus(),
+    );
   }
 
   Future<bool> updateStatus() async {

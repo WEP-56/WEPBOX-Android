@@ -1,6 +1,6 @@
 {
   "common": {
-    "appTitle": "Hiddify",
+    "appTitle": "WEPBOX",
     "start": "Commencer",
     "version": "Version",
     "ok": "OK",
@@ -27,7 +27,7 @@
     "fragment": "Fragment",
     "help": "Aide",
     "save": "Enregistrer",
-    "update": "Mettre à jour",
+    "update": "Mettre 脿 jour",
     "share": "Partager",
     "edit": "Modifier",
     "delete": "Supprimer",
@@ -37,18 +37,18 @@
     "later": "Plus tard",
     "ignore": "Ignorer",
     "quit": "Quitter",
-    "notSet": "Non défini",
+    "notSet": "Non d茅fini",
     "hide": "Masquer",
     "exit": "Quitter",
-    "reset": "Réinitialiser",
-    "done": "Terminé",
+    "reset": "R茅initialiser",
+    "done": "Termin茅",
     "search": "Rechercher",
     "decline": "Refuser",
     "agree": "Accepter",
     "empty": "Vide",
     "unknown": "Inconnu",
-    "hidden": "Caché",
-    "timeout": "Délai expiré",
+    "hidden": "Cach茅",
+    "timeout": "D茅lai expir茅",
     "sort": "Trier",
     "dashboard": "Tableau de bord",
     "interval": {
@@ -65,46 +65,46 @@
     },
     "msg": {
       "permission": {
-        "denied": "Permission refusée"
+        "denied": "Permission refus茅e"
       },
       "export": {
         "clipboard": {
-          "success": "Ajouté au presse-papiers avec succès",
-          "failure": "Échec de la copie dans le presse-papiers",
-          "contentTooLarge": "Contenu trop volumineux. Utilisez plutôt l'exportation de fichier"
+          "success": "Ajout茅 au presse-papiers avec succ猫s",
+          "failure": "脡chec de la copie dans le presse-papiers",
+          "contentTooLarge": "Contenu trop volumineux. Utilisez plut么t l'exportation de fichier"
         },
         "file": {
-          "success": "Fichier JSON créé avec succès",
-          "failure": "Échec de la création du fichier"
+          "success": "Fichier JSON cr茅茅 avec succ猫s",
+          "failure": "脡chec de la cr茅ation du fichier"
         }
       },
       "import": {
         "confirm": "Confirmer l'importation",
-        "success": "Importé avec succès",
-        "failure": "Échec de l'importation"
+        "success": "Import茅 avec succ猫s",
+        "failure": "脡chec de l'importation"
       }
     }
   },
   "intro": {
     "banner": "Tout ce dont vous avez besoin pour un internet sans restrictions",
     "termsAndPolicyCaution(rich)": "En continuant, vous acceptez les ${tap(@:pages.about.termsAndConditions)}",
-    "info(rich)": "Fait avec ❤️ par Hiddify - ${tap_source(Open Source)} (${tap_license(Licence)})"
+    "info(rich)": "Fait avec 鉂わ笍 par Hiddify - ${tap_source(Open Source)} (${tap_license(Licence)})"
   },
   "pages": {
     "home": {
       "title": "Accueil",
-      "quickSettings": "Réglages rapides"
+      "quickSettings": "R茅glages rapides"
     },
     "proxies": {
       "title": "Proxys",
       "sort": "Trier les proxys",
-      "testDelay": "Tester le délai",
+      "testDelay": "Tester le d茅lai",
       "empty": "Aucun proxy disponible",
       "activeProxy": "Proxy actif",
       "unknownIp": "IP inconnue",
       "sortOptions": {
-        "unsorted": "Par défaut",
-        "name": "Alphabétiquement",
+        "unsorted": "Par d茅faut",
+        "name": "Alphab茅tiquement",
         "delay": "Par latence"
       },
       "ipInfo": {
@@ -114,21 +114,21 @@
       },
       "delay": {
         "result": "Latence : ${delay} ms",
-        "timeout": "Délai du test de latence expiré",
+        "timeout": "D茅lai du test de latence expir茅",
         "testing": "Latence : test en cours..."
       }
     },
     "profiles": {
       "title": "Profils",
       "add": "Ajouter un profil",
-      "update": "Mettre à jour le profil",
+      "update": "Mettre 脿 jour le profil",
       "viewAllProfiles": "Voir tous les profils",
       "activeProfileName": "Nom du profil actif : \"${name}\".",
-      "nonActiveProfileName": "Sélectionner \"${name}\" comme profil actif",
-      "freeSubNotFound": "Aucun abonnement gratuit trouvé",
-      "freeSubNotFoundForRegion": "Aucun abonnement gratuit trouvé pour la région \"${region}\"",
-      "failedToLoad": "Échec du chargement",
-      "updateSubscriptions": "Mettre à jour les abonnements",
+      "nonActiveProfileName": "S茅lectionner \"${name}\" comme profil actif",
+      "freeSubNotFound": "Aucun abonnement gratuit trouv茅",
+      "freeSubNotFoundForRegion": "Aucun abonnement gratuit trouv茅 pour la r茅gion \"${region}\"",
+      "failedToLoad": "脡chec du chargement",
+      "updateSubscriptions": "Mettre 脿 jour les abonnements",
       "share": {
         "urlToClipboard": "URL dans le presse-papiers",
         "showUrlQr": "Afficher le QR code de l'URL",
@@ -136,33 +136,33 @@
       },
       "msg": {
         "save": {
-          "success": "Profil enregistré avec succès"
+          "success": "Profil enregistr茅 avec succ猫s"
         },
         "invalidUrl": "URL invalide",
         "add": {
-          "failure": "Échec de l'ajout du profil"
+          "failure": "脡chec de l'ajout du profil"
         },
         "update": {
-          "success": "Profil mis à jour avec succès",
-          "successNamed": "\"${name}\" a été mis à jour avec succès",
-          "failure": "Échec de la mise à jour du profil",
-          "failureNamed": "Échec de la mise à jour de \"${name}\""
+          "success": "Profil mis 脿 jour avec succ猫s",
+          "successNamed": "\"${name}\" a 茅t茅 mis 脿 jour avec succ猫s",
+          "failure": "脡chec de la mise 脿 jour du profil",
+          "failureNamed": "脡chec de la mise 脿 jour de \"${name}\""
         },
         "delete": {
-          "success": "Profil supprimé avec succès"
+          "success": "Profil supprim茅 avec succ猫s"
         }
       }
     },
     "profileDetails": {
       "title": "Profil",
-      "lastUpdate": "Dernière mise à jour",
+      "lastUpdate": "Derni猫re mise 脿 jour",
       "form": {
         "nameHint": "Nom du profil",
         "emptyName": "Le nom est requis",
         "invalidUrl": "URL invalide",
-        "urlHint": "URL complète de la configuration",
-        "disableAutoUpdate": "Désactiver la mise à jour automatique",
-        "autoUpdateInterval": "Intervalle de mise à jour automatique",
+        "urlHint": "URL compl猫te de la configuration",
+        "disableAutoUpdate": "D茅sactiver la mise 脿 jour automatique",
+        "autoUpdateInterval": "Intervalle de mise 脿 jour automatique",
         "loading": "Ajout du profil..."
       }
     },
@@ -172,18 +172,18 @@
       "shareAppLogs": "Partager les journaux de l'application"
     },
     "about": {
-      "title": "À propos",
-      "notAvailableMsg": "Vous utilisez déjà la dernière version",
-      "checkForUpdate": "Vérifier les mises à jour",
-      "openWorkingDir": "Ouvrir le répertoire de travail",
+      "title": "脌 propos",
+      "notAvailableMsg": "Vous utilisez d茅j脿 la derni猫re version",
+      "checkForUpdate": "V茅rifier les mises 脿 jour",
+      "openWorkingDir": "Ouvrir le r茅pertoire de travail",
       "sourceCode": "Code source",
       "telegramChannel": "Canal Telegram",
       "termsAndConditions": "Conditions d'utilisation",
-      "privacyPolicy": "Politique de confidentialité"
+      "privacyPolicy": "Politique de confidentialit茅"
     },
     "settings": {
-      "title": "Paramètres",
-      "resetTunnel": "Réinitialiser le profil VPN",
+      "title": "Param猫tres",
+      "resetTunnel": "R茅initialiser le profil VPN",
       "options": {
         "import": {
           "clipboard": "Importer les options depuis le presse-papiers",
@@ -195,131 +195,131 @@
           "allToClipboard": "Copier toutes les options dans le presse-papiers",
           "allToFile": "Exporter toutes les options vers un fichier"
         },
-        "reset": "Réinitialiser les options"
+        "reset": "R茅initialiser les options"
       },
       "general": {
-        "title": "Général",
+        "title": "G茅n茅ral",
         "locale": "Langue",
-        "themeMode": "Thème",
+        "themeMode": "Th猫me",
         "themeModes": {
-          "system": "Thème du système par défaut",
+          "system": "Th猫me du syst猫me par d茅faut",
           "dark": "Mode sombre",
           "light": "Mode clair",
           "black": "Mode noir"
         },
         "enableAnalytics": "Activer les statistiques",
-        "enableAnalyticsMsg": "Autoriser la collecte de statistiques et de rapports d'erreurs pour améliorer l'application",
-        "autoIpCheck": "Vérifier automatiquement l'IP de connexion",
+        "enableAnalyticsMsg": "Autoriser la collecte de statistiques et de rapports d'erreurs pour am茅liorer l'application",
+        "autoIpCheck": "V茅rifier automatiquement l'IP de connexion",
         "dynamicNotification": "Afficher la vitesse dans la notification",
         "hapticFeedback": "Retour haptique",
-        "actionAtClosing": "Action à la fermeture",
-        "autoStart": "Lancer au démarrage",
-        "silentStart": "Démarrer réduit",
-        "ignoreBatteryOptimizations": "Désactiver l'optimisation de la batterie",
+        "actionAtClosing": "Action 脿 la fermeture",
+        "autoStart": "Lancer au d茅marrage",
+        "silentStart": "D茅marrer r茅duit",
+        "ignoreBatteryOptimizations": "D茅sactiver l'optimisation de la batterie",
         "ignoreBatteryOptimizationsMsg": "Supprimer les restrictions pour une performance VPN optimale",
-        "memoryLimit": "Limite de mémoire",
-        "memoryLimitMsg": "Activer si vous rencontrez des erreurs de mémoire insuffisante ou des plantages fréquents de l'application",
-        "debugMode": "Mode de débogage",
-        "debugModeMsg": "Redémarrez l'application pour appliquer cette modification",
+        "memoryLimit": "Limite de m茅moire",
+        "memoryLimitMsg": "Activer si vous rencontrez des erreurs de m茅moire insuffisante ou des plantages fr茅quents de l'application",
+        "debugMode": "Mode de d茅bogage",
+        "debugModeMsg": "Red茅marrez l'application pour appliquer cette modification",
         "logLevel": "Niveau de journalisation",
         "connectionTestUrl": "URL de test de connexion",
         "urlTestInterval": "Intervalle de test de l'URL",
         "clashApiPort": "Port de l'API Clash",
         "useXrayCoreWhenPossible": "Utiliser xray-core si possible",
-        "useXrayCoreWhenPossibleMsg": "Utilisez xray-core lors de l'analyse des liens d'abonnement. Vous devez réimporter le lien pour activer cette option"
+        "useXrayCoreWhenPossibleMsg": "Utilisez xray-core lors de l'analyse des liens d'abonnement. Vous devez r茅importer le lien pour activer cette option"
       },
       "routing": {
         "title": "Routage",
         "perAppProxy": {
           "title": "Proxy par application",
-          "hideSysApps": "Masquer les applications système",
+          "hideSysApps": "Masquer les applications syst猫me",
           "options": {
             "import": {
-              "clipboard": "Importer la sélection depuis le presse-papiers",
-              "file": "Importer la sélection depuis un fichier",
-              "msg": "L'importation remplacera vos sélections actuelles. Êtes-vous sûr de vouloir continuer ?"
+              "clipboard": "Importer la s茅lection depuis le presse-papiers",
+              "file": "Importer la s茅lection depuis un fichier",
+              "msg": "L'importation remplacera vos s茅lections actuelles. 脢tes-vous s没r de vouloir continuer ?"
             },
             "export": {
-              "clipboard": "Copier la sélection dans le presse-papiers",
-              "file": "Exporter la sélection vers un fichier"
+              "clipboard": "Copier la s茅lection dans le presse-papiers",
+              "file": "Exporter la s茅lection vers un fichier"
             },
             "shareToAll": "Partager avec tous",
-            "clearAllSelections": "Effacer toutes les sélections"
+            "clearAllSelections": "Effacer toutes les s茅lections"
           },
           "modes": {
             "all": "Toutes",
             "proxy": "Proxy",
             "bypass": "Contourner",
             "allMsg": "Utiliser le proxy pour toutes les applications",
-            "proxyMsg": "Utiliser le proxy uniquement pour les applications sélectionnées",
-            "bypassMsg": "Ne pas utiliser le proxy pour les applications sélectionnées"
+            "proxyMsg": "Utiliser le proxy uniquement pour les applications s茅lectionn茅es",
+            "bypassMsg": "Ne pas utiliser le proxy pour les applications s茅lectionn茅es"
           },
           "autoSelection": {
-            "title": "Sélection automatique",
-            "performNow": "Exécuter maintenant",
-            "resetToDefault": "Réinitialiser par défaut",
-            "autoUpdateInterval": "Intervalle de mise à jour automatique",
+            "title": "S茅lection automatique",
+            "performNow": "Ex茅cuter maintenant",
+            "resetToDefault": "R茅initialiser par d茅faut",
+            "autoUpdateInterval": "Intervalle de mise 脿 jour automatique",
             "toast": {
-              "success": "Sélection automatique des applications terminée avec succès",
-              "failure": "Échec de la sélection automatique",
-              "regionNotFound": "Sélection automatique non trouvée pour la région \"${region}\"",
-              "alreadyInAuto": "Vos sélections sont déjà dans la liste automatique"
+              "success": "S茅lection automatique des applications termin茅e avec succ猫s",
+              "failure": "脡chec de la s茅lection automatique",
+              "regionNotFound": "S茅lection automatique non trouv茅e pour la r茅gion \"${region}\"",
+              "alreadyInAuto": "Vos s茅lections sont d茅j脿 dans la liste automatique"
             },
             "dialog": {
-              "title": "Sélection automatique des applications",
-              "msg": "La fonction de sélection automatique pour le proxy par application a été désactivée en raison du changement de région vers \"${region}\""
+              "title": "S茅lection automatique des applications",
+              "msg": "La fonction de s茅lection automatique pour le proxy par application a 茅t茅 d茅sactiv茅e en raison du changement de r茅gion vers \"${region}\""
             }
           }
         },
-        "region": "Région",
+        "region": "R茅gion",
         "regions": {
           "ir": "Iran (ir)",
           "cn": "Chine (cn)",
           "ru": "Russie (ru)",
           "af": "Afghanistan (af)",
-          "id": "Indonésie (id)",
+          "id": "Indon茅sie (id)",
           "tr": "Turquie (tr)",
-          "br": "Brésil (br)",
+          "br": "Br茅sil (br)",
           "other": "Autre"
         },
         "balancerStrategy": {
-          "title": "Stratégie de Balancer",
+          "title": "Strat茅gie de Balancer",
           "roundRobin": "Round robin",
           "consistentHash": "Consistent hash",
           "stickySession": "Sticky session"
         },
-        "blockAds": "Bloquer les publicités",
+        "blockAds": "Bloquer les publicit茅s",
         "bypassLan": "Contourner le LAN",
-        "resolveDestination": "Résoudre la destination",
+        "resolveDestination": "R茅soudre la destination",
         "ipv6Route": "Route IPv6",
         "ipv6Modes": {
-          "disable": "Désactiver",
+          "disable": "D茅sactiver",
           "enable": "Activer",
-          "prefer": "Préféré",
+          "prefer": "Pr茅f茅r茅",
           "only": "Uniquement"
         },
         "routeRule": {
-          "title": "Règles de routage",
+          "title": "R猫gles de routage",
           "options": {
             "import": {
-              "clipboard": "Importer les règles depuis le presse-papiers",
-              "file": "Importer les règles depuis un fichier"
+              "clipboard": "Importer les r猫gles depuis le presse-papiers",
+              "file": "Importer les r猫gles depuis un fichier"
             },
             "export": {
-              "clipboard": "Copier les règles dans le presse-papiers",
-              "file": "Enregistrer les règles dans un fichier"
+              "clipboard": "Copier les r猫gles dans le presse-papiers",
+              "file": "Enregistrer les r猫gles dans un fichier"
             },
-            "reset": "Réinitialiser les règles"
+            "reset": "R茅initialiser les r猫gles"
           },
-          "deleteRule": "Supprimer la règle",
-          "createRule": "Créer une nouvelle règle",
+          "deleteRule": "Supprimer la r猫gle",
+          "createRule": "Cr茅er une nouvelle r猫gle",
           "rule": {
-            "title": "Règle",
-            "ruleChanged": "Règle modifiée",
+            "title": "R猫gle",
+            "ruleChanged": "R猫gle modifi茅e",
             "ruleChangedMsg": "Voulez-vous enregistrer vos modifications ?",
             "onlyTunMode": "Disponible uniquement en mode TUN",
             "notAvailabeInThisPlatform": "Non disponible sur cette plateforme",
-            "canNotBeEmpty": "Ne peut pas être vide",
+            "canNotBeEmpty": "Ne peut pas 锚tre vide",
             "validUrlEx": "https://example.com",
             "validUrl": "\"URL\" valide comme\n@:pages.settings.routing.routeRule.rule.validUrlEx",
             "validProcessNameEx": "Chrome.exe ou google chrome ou chrome",
@@ -337,11 +337,11 @@
             "tileTitle(map)": {
               "name": "Nom",
               "outbound": "Sortie si correspondance",
-              "rule_set": "URL de l'ensemble de règles",
+              "rule_set": "URL de l'ensemble de r猫gles",
               "package_name": "Noms de paquets",
               "process_name": "Noms de processus",
               "process_path": "Chemins de processus",
-              "network": "Réseaux",
+              "network": "R茅seaux",
               "port_range": "Ports de destination",
               "source_port_range": "Ports source",
               "protocol": "Protocole",
@@ -349,8 +349,8 @@
               "source_ip_cidr": "IP CIDR source",
               "domain": "Domaine",
               "domain_suffixe": "Suffixe de domaine",
-              "domain_keyword": "Mot-clé de domaine",
-              "domain_regex": "Expression régulière de domaine"
+              "domain_keyword": "Mot-cl茅 de domaine",
+              "domain_regex": "Expression r茅guli猫re de domaine"
             },
             "outbound(map)": {
               "proxy": "Proxy",
@@ -375,31 +375,31 @@
           },
           "genericList": {
             "addNew": "Ajouter une nouvelle valeur",
-            "update": "Mettre à jour la valeur",
+            "update": "Mettre 脿 jour la valeur",
             "clearList": "Vider la liste",
-            "clearListMsg": "Tous les éléments ont été supprimés"
+            "clearListMsg": "Tous les 茅l茅ments ont 茅t茅 supprim茅s"
           },
           "androidApps": {
             "pageTitle": "Applications Android",
-            "showSystemApps": "Afficher les applications système",
-            "hideSystemApps": "Masquer les applications système",
-            "clearSelection": "Effacer la sélection",
-            "uninstalled": "Désinstallé"
+            "showSystemApps": "Afficher les applications syst猫me",
+            "hideSystemApps": "Masquer les applications syst猫me",
+            "clearSelection": "Effacer la s茅lection",
+            "uninstalled": "D茅sinstall茅"
           }
         }
       },
       "dns": {
         "title": "DNS",
         "remoteDns": "DNS distant",
-        "remoteDnsDomainStrategy": "Stratégie de domaine DNS distant",
-        "directDns": "Résolveur de serveur sortant (direct)",
-        "directDnsDomainStrategy": "Stratégie de domaine sortant",
+        "remoteDnsDomainStrategy": "Strat茅gie de domaine DNS distant",
+        "directDns": "R茅solveur de serveur sortant (direct)",
+        "directDnsDomainStrategy": "Strat茅gie de domaine sortant",
         "enableDnsRouting": "Activer le routage DNS",
         "enableFakeDns": "Activer le faux DNS",
         "domainStrategy": {
           "auto": "Auto",
-          "preferIpv6": "Préférer IPv6",
-          "preferIpv4": "Préférer IPv4",
+          "preferIpv6": "Pr茅f茅rer IPv6",
+          "preferIpv4": "Pr茅f茅rer IPv4",
           "ipv4Only": "IPv4 uniquement",
           "ipv6Only": "IPv6 uniquement"
         }
@@ -409,28 +409,28 @@
         "serviceMode": "Mode de service",
         "serviceModes": {
           "proxy": "Service proxy uniquement",
-          "systemProxy": "Définir le proxy système",
+          "systemProxy": "D茅finir le proxy syst猫me",
           "tun": "VPN",
           "tunService": "Service VPN"
         },
         "shortServiceModes": {
           "proxy": "Proxy",
-          "systemProxy": "Proxy système",
+          "systemProxy": "Proxy syst猫me",
           "tun": "VPN",
           "tunService": "Service VPN"
         },
         "strictRoute": "Routage strict",
-        "tunImplementation": "Implémentation TUN",
+        "tunImplementation": "Impl茅mentation TUN",
         "tunImplementations": {
           "mixed": "Mixte",
-          "system": "Système",
+          "system": "Syst猫me",
           "gvisor": "gVisor"
         },
         "mixedPort": "Port mixte",
         "tproxyPort": "Port de proxy transparent",
         "directPort": "Port direct local",
         "redirectPort": "Port de redirection",
-        "allowConnectionFromLan": "Partager le VPN sur le réseau local"
+        "allowConnectionFromLan": "Partager le VPN sur le r茅seau local"
       },
       "tlsTricks": {
         "title": "Astuces TLS",
@@ -443,7 +443,7 @@
         "packets1_4": "1-4",
         "packets1_5": "1-5",
         "size": "Taille du fragment",
-        "sleep": "Délai du fragment",
+        "sleep": "D茅lai du fragment",
         "mixedSniCase": {
           "enable": "Activer la casse mixte pour SNI"
         },
@@ -455,24 +455,24 @@
       "warp": {
         "title": "WARP",
         "enable": "Activer WARP",
-        "generateConfig": "Générer la configuration WARP",
-        "configGenerated": "Configuration WARP générée",
+        "generateConfig": "G茅n茅rer la configuration WARP",
+        "configGenerated": "Configuration WARP g茅n茅r茅e",
         "missingConfig": "Configuration WARP manquante",
-        "detourMode": "Mode de détour",
+        "detourMode": "Mode de d茅tour",
         "detourModes": {
-          "proxyOverWarp": "Détourner les proxys via WARP",
-          "warpOverProxy": "Détourner WARP via les proxys",
-          "proxyOverWarpExplain": "Débloquer les proxys avec WARP",
-          "warpOverProxyExplain": "Sécurité supplémentaire avec WARP"
+          "proxyOverWarp": "D茅tourner les proxys via WARP",
+          "warpOverProxy": "D茅tourner WARP via les proxys",
+          "proxyOverWarpExplain": "D茅bloquer les proxys avec WARP",
+          "warpOverProxyExplain": "S茅curit茅 suppl茅mentaire avec WARP"
         },
-        "licenseKey": "Clé de licence",
+        "licenseKey": "Cl茅 de licence",
         "cleanIp": "IP propre",
         "port": "Port",
         "noise": {
           "count": "Nombre de bruits",
           "mode": "Mode bruit",
           "size": "Taille du bruit",
-          "delay": "Délai du bruit"
+          "delay": "D茅lai du bruit"
         }
       }
     }
@@ -484,21 +484,21 @@
       "trafficLive": "Trafic en direct",
       "trafficTotal": "Trafic total",
       "uplink": "Envoi",
-      "downlink": "Réception",
+      "downlink": "R茅ception",
       "speed": "Vitesse",
-      "totalTransferred": "Total transféré"
+      "totalTransferred": "Total transf茅r茅"
     },
     "subscriptionInfo": {
       "upload": "Envoi",
-      "download": "Téléchargement",
+      "download": "T茅l茅chargement",
       "total": "Trafic total",
       "expireDate": "Date d'expiration",
-      "expired": "Expiré",
-      "noTraffic": "Quota épuisé",
+      "expired": "Expir茅",
+      "noTraffic": "Quota 茅puis茅",
       "remainingTime": "Temps restant",
       "remainingDuration": "${duration} jours restants",
       "remainingDurationNew": "${duration} jours",
-      "remainingTrafficSemanticLabel": "${consumed} sur ${total} de trafic consommé",
+      "remainingTrafficSemanticLabel": "${consumed} sur ${total} de trafic consomm茅",
       "remainingTraffic": "Trafic restant",
       "remainingUsage": "Restant",
       "profileSite": "Fournisseur",
@@ -509,57 +509,57 @@
     "sortProfiles": {
       "title": "Trier par",
       "sort": {
-        "name": "Alphabétiquement",
-        "lastUpdate": "Dernière mise à jour"
+        "name": "Alphab茅tiquement",
+        "lastUpdate": "Derni猫re mise 脿 jour"
       }
     },
     "warpLicense": {
       "title": "Consentement Cloudflare WARP",
-      "description(rich)": "Cloudflare WARP est un fournisseur VPN WireGuard gratuit. En activant cette option, vous acceptez les ${tos(Conditions d'utilisation)} et la ${privacy(Politique de confidentialité)} de Cloudflare WARP."
+      "description(rich)": "Cloudflare WARP est un fournisseur VPN WireGuard gratuit. En activant cette option, vous acceptez les ${tos(Conditions d'utilisation)} et la ${privacy(Politique de confidentialit茅)} de Cloudflare WARP."
     },
     "newVersion": {
-      "title": "Mise à jour disponible",
-      "msg": "Une nouvelle version de @:common.appTitle est disponible. Voulez-vous mettre à jour maintenant ?",
+      "title": "Mise 脿 jour disponible",
+      "msg": "Une nouvelle version de @:common.appTitle est disponible. Voulez-vous mettre 脿 jour maintenant ?",
       "currentVersion": "Version actuelle : ",
       "newVersion": "Nouvelle version : ",
-      "updateNow": "Mettre à jour"
+      "updateNow": "Mettre 脿 jour"
     },
     "confirmation": {
       "settings": {
         "import": {
-          "msg": "Cette action remplacera toutes les options de configuration par les valeurs fournies. Êtes-vous sûr ?"
+          "msg": "Cette action remplacera toutes les options de configuration par les valeurs fournies. 脢tes-vous s没r ?"
         }
       },
       "profile": {
         "delete": {
           "title": "Supprimer le profil",
-          "msg": "Êtes-vous sûr de vouloir supprimer ce profil définitivement ?"
+          "msg": "脢tes-vous s没r de vouloir supprimer ce profil d茅finitivement ?"
         }
       },
       "perAppProxy": {
         "shareOnGithub": {
-          "title": "Améliorer la sélection automatique",
-          "msg": "En partageant les applications sélectionnées, vous aidez à compléter la liste de \"sélection automatique\""
+          "title": "Am茅liorer la s茅lection automatique",
+          "msg": "En partageant les applications s茅lectionn茅es, vous aidez 脿 compl茅ter la liste de \"s茅lection automatique\""
         },
         "import": {
-          "msg": "Cette action remplacera toutes vos sélections actuelles de proxy par application. Êtes-vous sûr de vouloir continuer ?"
+          "msg": "Cette action remplacera toutes vos s茅lections actuelles de proxy par application. 脢tes-vous s没r de vouloir continuer ?"
         }
       },
       "routeRule": {
         "delete": {
-          "title": "Supprimer la règle",
-          "msg": "Êtes-vous sûr de vouloir supprimer la règle \"$rulename\" ?"
+          "title": "Supprimer la r猫gle",
+          "msg": "脢tes-vous s没r de vouloir supprimer la r猫gle \"$rulename\" ?"
         }
       }
     },
     "experimentalNotice": {
-      "title": "Fonctionnalités expérimentales en cours d'utilisation",
-      "msg": "Vous avez activé des fonctionnalités expérimentales qui pourraient affecter la qualité de la connexion et causer des erreurs inattendues. Vous pouvez toujours modifier ou réinitialiser ces options depuis la page de configuration.",
+      "title": "Fonctionnalit茅s exp茅rimentales en cours d'utilisation",
+      "msg": "Vous avez activ茅 des fonctionnalit茅s exp茅rimentales qui pourraient affecter la qualit茅 de la connexion et causer des erreurs inattendues. Vous pouvez toujours modifier ou r茅initialiser ces options depuis la page de configuration.",
       "disable": "Ne plus afficher"
     },
     "noActiveProfile": {
       "title": "Choisissez un profil",
-      "msg": "Pour commencer, ajoutez un profil de connexion qui inclut les détails de votre connexion VPN.\n\nVous n'avez pas encore de serveur VPN ? Pas de problème, suivez le tutoriel ci-dessous pour en configurer un rapidement et gratuitement.",
+      "msg": "Pour commencer, ajoutez un profil de connexion qui inclut les d茅tails de votre connexion VPN.\n\nVous n'avez pas encore de serveur VPN ? Pas de probl猫me, suivez le tutoriel ci-dessous pour en configurer un rapidement et gratuitement.",
       "helpBtn": {
         "label": "Montrez-moi comment",
         "url": "https://hiddify.com/manager/"
@@ -567,22 +567,22 @@
     },
     "unknownDomainsWarning": {
       "title": "Avertissement de lien externe",
-      "youAreAboutToVisit": "Vous êtes sur le point de visiter :",
-      "thisWebsiteIsNotInOurTrustedList": "Ce site web ne figure pas dans notre liste de confiance. Veuillez procéder avec prudence."
+      "youAreAboutToVisit": "Vous 锚tes sur le point de visiter :",
+      "thisWebsiteIsNotInOurTrustedList": "Ce site web ne figure pas dans notre liste de confiance. Veuillez proc茅der avec prudence."
     },
     "proxyInfo": {
       "fullTag": "Tag complet :",
       "type": "Type :",
       "testTime": "Heure du test :",
-      "testDelay": "Délai du test :",
-      "isSelected": "Sélectionné :",
+      "testDelay": "D茅lai du test :",
+      "isSelected": "S茅lectionn茅 :",
       "isGroup": "Est un groupe",
-      "isSecure": "Est sécurisé :",
+      "isSecure": "Est s茅curis茅 :",
       "port": "Port :",
-      "host": "Hôte :",
+      "host": "H么te :",
       "ip": "IP :",
       "countryCode": "Code pays :",
-      "region": "Région :",
+      "region": "R茅gion :",
       "city": "Ville :",
       "asn": "ASN :",
       "organization": "Organisation :",
@@ -590,54 +590,54 @@
       "postalCode": "Code postal :"
     },
     "windowClosing": {
-      "askEachTime": "Demander à chaque fois",
+      "askEachTime": "Demander 脿 chaque fois",
       "alertMessage": "Masquer ou quitter l'application ?",
-      "remember": "Mémoriser mon choix"
+      "remember": "M茅moriser mon choix"
     }
   },
   "connection": {
     "tapToConnect": "Appuyez pour vous connecter",
     "connect": "Connecter",
     "connecting": "Connexion en cours...",
-    "connected": "Connecté",
-    "disconnect": "Déconnecter",
-    "disconnecting": "Déconnexion en cours...",
+    "connected": "Connect茅",
+    "disconnect": "D茅connecter",
+    "disconnecting": "D茅connexion en cours...",
     "reconnect": "Reconnecter",
     "reconnectMsg": "Reconnexion pour prendre en compte les changements...",
-    "secure": "Sécurisé par WARP"
+    "secure": "S茅curis茅 par WARP"
   },
   "errors": {
     "unexpected": "Erreur inattendue",
     "connection": {
       "unexpected": "Erreur de connexion inattendue",
-      "timeout": "Délai de connexion expiré",
-      "badResponse": "Mauvaise réponse",
+      "timeout": "D茅lai de connexion expir茅",
+      "badResponse": "Mauvaise r茅ponse",
       "connectionError": "Erreur de connexion",
       "badCertificate": "Certificat invalide"
     },
     "profiles": {
       "unexpected": "Erreur inattendue",
-      "notFound": "Profil non trouvé",
+      "notFound": "Profil non trouv茅",
       "invalidConfig": "Configurations invalides",
       "invalidUrl": "URL invalide",
-      "canceledByUser": "Annulé par l'utilisateur"
+      "canceledByUser": "Annul茅 par l'utilisateur"
     },
     "connectivity": {
-      "unexpected": "Échec inattendu",
+      "unexpected": "脡chec inattendu",
       "missingVpnPermission": "Autorisation VPN manquante",
       "missingNotificationPermission": "Autorisation de notification manquante",
       "core": "Erreur du noyau"
     },
     "singbox": {
-      "serviceNotRunning": "Le service n'est pas en cours d'exécution",
+      "serviceNotRunning": "Le service n'est pas en cours d'ex茅cution",
       "missingPrivilege": "Autorisation manquante",
-      "missingPrivilegeMsg": "Le mode VPN nécessite des droits d'administrateur. Veuillez relancer l'application en tant qu'administrateur ou changer le mode de service.",
+      "missingPrivilegeMsg": "Le mode VPN n茅cessite des droits d'administrateur. Veuillez relancer l'application en tant qu'administrateur ou changer le mode de service.",
       "invalidConfigOptions": "Options de configuration invalides",
       "invalidConfig": "Configuration invalide"
     },
     "warp": {
       "missingLicense": "Licence WARP manquante",
-      "missingLicenseMsg": "Le profil sélectionné utilise la fonctionnalité WARP. Pour utiliser cette fonctionnalité, vous devez accepter la licence WARP."
+      "missingLicenseMsg": "Le profil s茅lectionn茅 utilise la fonctionnalit茅 WARP. Pour utiliser cette fonctionnalit茅, vous devez accepter la licence WARP."
     }
   }
 }

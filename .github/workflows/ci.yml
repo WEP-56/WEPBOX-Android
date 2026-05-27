@@ -6,18 +6,14 @@ on:
       - 'docs/**'
       - 'test.configs/**'
       - '.vscode/'
-      - 'appcast.xml'
   push:
     branches:
        - main
        - dev
-       - android-fix-action-bug
-       - new-design-v2 
     paths-ignore:
       - '**.md'
       - 'docs/**'
       - '.vscode/'
-      - 'appcast.xml'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
@@ -31,4 +27,3 @@ jobs:
     if: "${{!contains(github.event.head_commit.message, 'release: version')}}"
     with:
       upload-artifact: ${{ github.event_name == 'push' }}
-      

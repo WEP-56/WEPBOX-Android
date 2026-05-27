@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高级纸质极简代理客户端</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@200;300;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* 浅色模式 (暖纸调) */
+        :root {
+            --bg-color: #FBFBFA;          /* 宣纸微暖白 */
+            --surface-color: #FFFFFF;
+            --border-color: #E6E6E0;       /* 印刷感细线条 */
+            --text-main: #1A1A1A;          /* 浓墨黑 */
+            --text-muted: #7A7A75;         /* 暮灰 */
+            --accent-color: #2F4F4F;       /* 深石板绿 */
+            --accent-bg: #F0F4F4;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.01);
+            --nav-bg: #FBFBFA;
+            
+            /* 字体定义 */
+            --font-sans: 'Noto Sans SC', -apple-system, sans-serif;
+            --font-serif: 'Noto Serif SC', 'Songti SC', serif;
+        }
+
+        /* 深色模式 (碳墨调) */
+        .dark-mode {
+            --bg-color: #121214;          /* 哑光碳黑 */
+            --surface-color: #1A1A1D;     /* 叠层深灰 */
+            --border-color: #2C2C30;       /* 刻线暗灰 */
+            --text-main: #E5E5E0;          /* 纸白 */
+            --text-muted: #8A8A90;         /* 暮灰 */
+            --accent-color: #97A7B3;       /* 莫兰迪蓝灰 */
+            --accent-bg: #242A30;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            --nav-bg: #121214;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-sans);
+            letter-spacing: 0.02em; /* 让中文字符微调，更有呼吸感 */
+            transition: background-color 0.4s ease, border-color 0.4s ease, color 0.3s ease;
+        }
+
+        body {
+            background-color: #EBEBEB;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* 手机外壳模拟 */
+        .phone-container {
+            width: 390px;
+            height: 844px;
+            background-color: var(--bg-color);
+            border-radius: 40px;
+            box-shadow: 0 30px 70px rgba(0,0,0,0.15);
+            border: 10px solid #1A1A1A;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            color: var(--text-main);
+        }
+
+        /* 状态栏 */
+        .status-bar {
+            height: 50px;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 600;
+            z-index: 10;
+        }
+
+        .theme-toggle {
+            cursor: pointer;
+            font-size: 20px;
+            color: var(--text-main);
+            background: none;
+            border: none;
+            display: flex;
+            align-items: center;
+        }
+
+        /* 内容容器 */
+        .content-wrapper {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px 24px 100px 24px;
+        }
+
+        .page { display: none; }
+        .page.active { display: block; }
+
+        /* 杂志风大标题 */
+        .page-title {
+            font-family: var(--font-serif);
+            font-size: 30px;
+            font-weight: 300;
+            margin-bottom: 32px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ================= 首页 (卡片与排版) ================= */
+        .editorial-switch-card {
+            border: 1px solid var(--border-color);
+            background: var(--surface-color);
+            border-radius: 4px; /* 极简风偏爱几何小圆角 */
+            padding: 36px 24px;
+            text-align: center;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow);
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 14px;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            margin-bottom: 24px;
+            color: var(--text-muted);
+        }
+        .status-badge.connected {
+            background-color: var(--accent-bg);
+            color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+
+        .action-label {
+            font-family: var(--font-serif);
+            font-size: 38px;
+            font-weight: 200;
+            margin-bottom: 10px;
+            letter-spacing: 0.1em;
+        }
+
+        .action-sub {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 28px;
+        }
+
+        /* 仪式感操作条 */
+        .trigger-bar {
+            width: 100%;
+            height: 46px;
+            border: 1px solid var(--text-main);
+            background: var(--text-main);
+            color: var(--bg-color);
+            font-weight: 400;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            cursor: pointer;
+        }
+
+        /* 极简网格 */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 28px;
+        }
+
+        .info-cell {
+            padding: 16px 0;
+        }
+        .info-cell:first-child {
+            border-right: 1px solid var(--border-color);
+            padding-right: 16px;
+        }
+        .info-cell:last-child {
+            padding-left: 16px;
+        }
+
+        .info-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            letter-spacing: 0.05em;
+        }
+
+        .info-value {
+            font-size: 17px;
+            font-weight: 400;
+            font-family: monospace; /* 数字使用等宽，排版更工整 */
+        }
+
+        /* ================= 通用列表排版 ================= */
+        .list-section-title {
+            font-size: 11px;
+            color: var(--text-muted);
+            letter-spacing: 0.1em;
+            margin-bottom: 12px;
+            margin-top: 8px;
+        }
+
+        .paper-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+        }
+
+        .paper-item.active .node-name {
+            font-family: var(--font-serif);
+            font-weight: 600;
+            color: var(--accent-color);
+        }
+
+        .node-name {
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .node-meta {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 6px;
+        }
+
+        .node-ping-badge {
+            font-size: 13px;
+            font-family: monospace;
+        }
+
+        /* ================= 输入框主义 ================= */
+        .minimal-input-container {
+            border-bottom: 1px solid var(--text-main);
+            display: flex;
+            padding: 6px 0;
+            margin-bottom: 32px;
+        }
+
+        .minimal-input {
+            flex: 1;
+            background: none;
+            border: none;
+            color: var(--text-main);
+            font-size: 14px;
+            outline: none;
+        }
+        .minimal-input::placeholder { color: var(--text-muted); }
+
+        .icon-btn {
+            background: none;
+            border: none;
+            color: var(--text-main);
+            cursor: pointer;
+        }
+
+        /* ================= 底部导航栏 ================= */
+        .bottom-nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 76px;
+            background-color: var(--nav-bg);
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 14px;
+            z-index: 10;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: var(--text-muted);
+            cursor: pointer;
+            flex: 1;
+        }
+
+        .nav-item.active {
+            color: var(--text-main);
+        }
+
+        .nav-item .material-icons-round {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+
+        .nav-item span {
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="phone-container" id="phone">
+    <div class="status-bar">
+        <span>09:41</span>
+        <button class="theme-toggle" onclick="toggleTheme()" id="themeIcon">
+            <span class="material-icons-round">dark_mode</span>
+        </button>
+    </div>
+
+    <div class="content-wrapper">
+        
+        <div id="home" class="page active">
+            <div class="page-title">状态概览</div>
+            
+            <div class="editorial-switch-card">
+                <div class="status-badge" id="badge">未连接</div>
+                <div class="action-label" id="actionLabel">安全待命</div>
+                <div class="action-sub" id="nodeSub">当前预选：香港 IPLC 01 (Hysteria2)</div>
+                <button class="trigger-bar" id="actionBtn" onclick="toggleProxy()">开启网络安全连接</button>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-cell">
+                    <div class="info-label">实时下行速度</div>
+                    <div class="info-value" id="downSpeed">0.00 Mb/s</div>
+                </div>
+                <div class="info-cell">
+                    <div class="info-label">实时上行速度</div>
+                    <div class="info-value" id="upSpeed">0.00 Mb/s</div>
+                </div>
+            </div>
+            
+            <div class="info-label" style="margin-bottom: 6px;">内核状态</div>
+            <div style="font-size: 13px; color: var(--text-muted); font-family: monospace;">Sing-box Tun 内核 v1.8 • 开源免费</div>
+        </div>
+
+        <div id="nodes" class="page">
+            <div class="page-title">节点节点</div>
+            <div class="list-section-title" style="display: flex; justify-content: space-between; align-items: center;">
+                <span>请选择接入基站</span>
+                <span style="cursor: pointer; text-decoration: underline; letter-spacing: 0;">延迟整备</span>
+            </div>
+            
+            <div class="paper-item active">
+                <div>
+                    <div class="node-name">香港 IPLC 高速 01</div>
+                    <div class="node-meta">Hysteria2 • 专线低延迟专线</div>
+                </div>
+                <div class="node-ping-badge">42 ms</div>
+            </div>
+            <div class="paper-item">
+                <div>
+                    <div class="node-name">东京 BGP 原生 IP 01</div>
+                    <div class="node-meta">Shadowsocks • 支持全流媒体解锁</div>
+                </div>
+                <div class="node-ping-badge">78 ms</div>
+            </div>
+            <div class="paper-item">
+                <div>
+                    <div class="node-name">新加坡 Direct 直连</div>
+                    <div class="node-meta">TUIC • 适合大文件吞吐</div>
+                </div>
+                <div class="node-ping-badge">91 ms</div>
+            </div>
+        </div>
+
+        <div id="subscription" class="page">
+            <div class="page-title">配置订阅</div>
+            <div class="list-section-title">导入远程配置文件</div>
+            <div class="minimal-input-container">
+                <input type="text" class="minimal-input" placeholder="请在此处粘贴订阅 URL 链接...">
+                <button class="icon-btn"><span class="material-icons-round">arrow_forward</span></button>
+            </div>
+
+            <div class="list-section-title">当前生效的主动配置</div>
+            <div class="paper-item">
+                <div>
+                    <div class="node-name" style="font-weight: 500;">🚀 极速云全球加速</div>
+                    <div class="node-meta">已用: 142GB / 总计: 500GB (剩余 15 天)</div>
+                </div>
+                <span class="material-icons-round" style="color: var(--text-muted); font-size: 18px;">sync</span>
+            </div>
+        </div>
+
+        <div id="settings" class="page">
+            <div class="page-title">全局设置</div>
+            
+            <div class="list-section-title">分流路由系统</div>
+            <div class="paper-item">
+                <div>
+                    <div class="node-name">路由模式选择</div>
+                    <div class="node-meta">绕过中国大陆地区 (Geosite 规则驱动)</div>
+                </div>
+            </div>
+            <div class="paper-item">
+                <div>
+                    <div class="node-name">TUN 虚拟网卡模式</div>
+                    <div class="node-meta">接管整机网络流量，实现无缝透明代理</div>
+                </div>
+                <span class="material-icons-round" style="color: var(--accent-color);">check_circle</span>
+            </div>
+
+            <div class="list-section-title" style="margin-top: 24px;">高级策略</div>
+            <div class="paper-item">
+                <div>
+                    <div class="node-name">安全 DNS 规则</div>
+                    <div class="node-meta">Sing-box 智能防污染 DNS (QUIC 优先)</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bottom-nav">
+        <div class="nav-item active" onclick="switchTab('home', this)">
+            <span class="material-icons-round">adjust</span>
+            <span>首页</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('nodes', this)">
+            <span class="material-icons-round">sort</span>
+            <span>节点</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('subscription', this)">
+            <span class="material-icons-round">layers</span>
+            <span>订阅</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('settings', this)">
+            <span class="material-icons-round">tune</span>
+            <span>设置</span>
+        </div>
+    </div>
+</div>
+
+<script>
+    // 标签页切换逻辑
+    function switchTab(pageId, element) {
+        document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+        document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+        document.getElementById(pageId).classList.add('active');
+        element.classList.add('active');
+    }
+
+    // 深浅色主题切换
+    function toggleTheme() {
+        const phone = document.getElementById('phone');
+        const icon = document.getElementById('themeIcon').querySelector('.material-icons-round');
+        phone.classList.toggle('dark-mode');
+        if(phone.classList.contains('dark-mode')) {
+            icon.innerText = 'light_mode';
+        } else {
+            icon.innerText = 'dark_mode';
+        }
+    }
+
+    // 核心开关交互模拟
+    let isRunning = false;
+    let speedTimer = null;
+    function toggleProxy() {
+        isRunning = !isRunning;
+        const badge = document.getElementById('badge');
+        const label = document.getElementById('actionLabel');
+        const btn = document.getElementById('actionBtn');
+        const down = document.getElementById('downSpeed');
+        const up = document.getElementById('upSpeed');
+
+        if(isRunning) {
+            badge.innerText = "已激活";
+            badge.classList.add('connected');
+            label.innerText = "服务运行中";
+            btn.innerText = "断开当前网络连接";
+            
+            // 模拟极简测速
+            speedTimer = setInterval(() => {
+                down.innerText = (Math.random() * 12 + 2).toFixed(2) + ' Mb/s';
+                up.innerText = (Math.random() * 3 + 0.5).toFixed(2) + ' Mb/s';
+            }, 800);
+        } else {
+            badge.innerText = "未连接";
+            badge.classList.remove('connected');
+            label.innerText = "安全待命";
+            btn.innerText = "开启网络安全连接";
+            down.innerText = '0.00 Mb/s';
+            up.innerText = '0.00 Mb/s';
+            clearInterval(speedTimer);
+        }
+    }
+</script>
+</body>
+</html>

@@ -20,10 +20,16 @@ import 'package:rxdart/rxdart.dart';
 final _logger = Loggy('FFIHiddifyCoreService');
 
 class CoreInterfaceMobile extends CoreInterface with InfraLogger {
-  static const channelPrefix = "com.hiddify.app";
+  static const channelPrefix = "com.wepbox.app";
   static const methodChannel = MethodChannel("$channelPrefix/method");
-  static const statusChannel = EventChannel("$channelPrefix/service.status", JSONMethodCodec());
-  static const alertsChannel = EventChannel("$channelPrefix/service.alerts", JSONMethodCodec());
+  static const statusChannel = EventChannel(
+    "$channelPrefix/service.status",
+    JSONMethodCodec(),
+  );
+  static const alertsChannel = EventChannel(
+    "$channelPrefix/service.alerts",
+    JSONMethodCodec(),
+  );
 
   late Uint8List serverPublicKey;
   static final cert = CryptoUtils.generateEcKeyPair();
@@ -38,7 +44,10 @@ class CoreInterfaceMobile extends CoreInterface with InfraLogger {
   @override
   Future<String> setup(Directories directories, bool debug, int mode) async {
     final channelOption = [1, 2].contains(mode)
-        ? MTLSChannelCredentials(serverPublicKey: serverPublicKey, clientKey: cert)
+        ? MTLSChannelCredentials(
+            serverPublicKey: serverPublicKey,
+            clientKey: cert,
+          )
         : const ChannelCredentials.insecure();
     _debug = debug;
     final helloClient = HelloClient(
@@ -48,10 +57,16 @@ class CoreInterfaceMobile extends CoreInterface with InfraLogger {
         options: ChannelOptions(credentials: channelOption),
       ),
     );
-    final status = statusChannel.receiveBroadcastStream().map(CoreStatus.fromEvent);
-    final alerts = alertsChannel.receiveBroadcastStream().map(CoreStatus.fromEvent);
+    final status = statusChannel.receiveBroadcastStream().map(
+      CoreStatus.fromEvent,
+    );
+    final alerts = alertsChannel.receiveBroadcastStream().map(
+      CoreStatus.fromEvent,
+    );
 
-    _status = LastStream(ValueConnectableStream(Rx.merge([status, alerts])).autoConnect());
+    _status = LastStream(
+      ValueConnectableStream(Rx.merge([status, alerts])).autoConnect(),
+    );
     try {
       await helloClient.sayHello(HelloRequest(name: "test"));
       loggy.info("core is already started!");
@@ -96,14 +111,15 @@ class CoreInterfaceMobile extends CoreInterface with InfraLogger {
         options: ChannelOptions(credentials: channelOption),
       ),
     );
-    // await start("/sdcard/Android/data/app.hiddify.com/files/configs/cdc633e9-8cfc-4a67-948d-009f779a5c91.json", "hiddify");
+    // await start("/sdcard/Android/data/com.wepbox.wepbox/files/configs/cdc633e9-8cfc-4a67-948d-009f779a5c91.json", "wepbox");
     return "";
   }
 
   @override
   Future<CoreStatus> setupBackground(String path, String name) async {
     // if (!await waitUntilPort(portBack, false, stop)) return const CoreStatus.stopped(alert: CoreAlert.createService);
-    if (!await stop()) return const CoreStatus.stopped(alert: CoreAlert.createService);
+    if (!await stop())
+      return const CoreStatus.stopped(alert: CoreAlert.createService);
     _status.clean();
     await methodChannel.invokeMethod("start", {
       "path": path,
@@ -140,7 +156,10 @@ class CoreInterfaceMobile extends CoreInterface with InfraLogger {
 
     if (!await waitUntilPort(portBack, true, null, maxTry: 10)) {
       await stopMethodChannel();
-      return const CoreStatus.stopped(alert: CoreAlert.startService, message: "starting background core...");
+      return const CoreStatus.stopped(
+        alert: CoreAlert.startService,
+        message: "starting background core...",
+      );
     }
     return const CoreStarted();
   }
@@ -201,7 +220,11 @@ Future<bool> waitUntilPort(
   return false;
 }
 
-Future<bool> isPortOpen(String host, int port, {Duration timeout = const Duration(milliseconds: 300)}) async {
+Future<bool> isPortOpen(
+  String host,
+  int port, {
+  Duration timeout = const Duration(milliseconds: 300),
+}) async {
   try {
     final socket = await Socket.connect(host, port, timeout: timeout);
     await socket.close();

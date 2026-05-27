@@ -1,376 +1,376 @@
 {
   "common": {
-    "appTitle": "Hiddify",
-    "start": "ابدأ",
-    "version": "الإصدار",
-    "ok": "موافق",
-    "cancel": "إلغاء",
-    "kContinue": "متابعة",
-    "showMore": "عرض المزيد",
-    "showLess": "عرض أقل",
-    "filter": "تصفية",
-    "all": "الكل",
-    "pause": "إيقاف مؤقت",
-    "resume": "استئناف",
-    "clear": "مسح",
-    "close": "إغلاق",
-    "auto": "تلقائي",
-    "manually": "يدوي",
-    "name": "الاسم",
-    "url": "الرابط",
-    "add": "إضافة",
-    "clipboard": "الحافظة",
-    "addToClipboard": "إضافة إلى الحافظة",
-    "scanQr": "مسح رمز QR",
-    "free": "مجاني",
+    "appTitle": "WEPBOX",
+    "start": "丕亘丿兀",
+    "version": "丕賱廿氐丿丕乇",
+    "ok": "賲賵丕賮賯",
+    "cancel": "廿賱睾丕亍",
+    "kContinue": "賲鬲丕亘毓丞",
+    "showMore": "毓乇囟 丕賱賲夭賷丿",
+    "showLess": "毓乇囟 兀賯賱",
+    "filter": "鬲氐賮賷丞",
+    "all": "丕賱賰賱",
+    "pause": "廿賷賯丕賮 賲丐賯鬲",
+    "resume": "丕爻鬲卅賳丕賮",
+    "clear": "賲爻丨",
+    "close": "廿睾賱丕賯",
+    "auto": "鬲賱賯丕卅賷",
+    "manually": "賷丿賵賷",
+    "name": "丕賱丕爻賲",
+    "url": "丕賱乇丕亘胤",
+    "add": "廿囟丕賮丞",
+    "clipboard": "丕賱丨丕賮馗丞",
+    "addToClipboard": "廿囟丕賮丞 廿賱賶 丕賱丨丕賮馗丞",
+    "scanQr": "賲爻丨 乇賲夭 QR",
+    "free": "賲噩丕賳賷",
     "warp": "WARP",
     "fragment": "Fragment",
-    "help": "مساعدة",
-    "save": "حفظ",
-    "update": "تحديث",
-    "share": "مشاركة",
-    "edit": "تعديل",
-    "delete": "حذف",
-    "discard": "تجاهل",
-    "import": "استيراد",
-    "export": "تصدير",
-    "later": "لاحقًا",
-    "ignore": "تجاهل",
-    "quit": "خروج",
-    "notSet": "غير محدد",
-    "hide": "إخفاء",
-    "exit": "خروج",
-    "reset": "إعادة تعيين",
-    "done": "تم",
-    "search": "بحث",
-    "decline": "رفض",
-    "agree": "أوافق",
-    "empty": "فارغ",
-    "unknown": "غير معروف",
-    "hidden": "مخفي",
-    "timeout": "انتهى الوقت",
-    "sort": "فرز",
-    "dashboard": "لوحة التحكم",
+    "help": "賲爻丕毓丿丞",
+    "save": "丨賮馗",
+    "update": "鬲丨丿賷孬",
+    "share": "賲卮丕乇賰丞",
+    "edit": "鬲毓丿賷賱",
+    "delete": "丨匕賮",
+    "discard": "鬲噩丕賴賱",
+    "import": "丕爻鬲賷乇丕丿",
+    "export": "鬲氐丿賷乇",
+    "later": "賱丕丨賯賸丕",
+    "ignore": "鬲噩丕賴賱",
+    "quit": "禺乇賵噩",
+    "notSet": "睾賷乇 賲丨丿丿",
+    "hide": "廿禺賮丕亍",
+    "exit": "禺乇賵噩",
+    "reset": "廿毓丕丿丞 鬲毓賷賷賳",
+    "done": "鬲賲",
+    "search": "亘丨孬",
+    "decline": "乇賮囟",
+    "agree": "兀賵丕賮賯",
+    "empty": "賮丕乇睾",
+    "unknown": "睾賷乇 賲毓乇賵賮",
+    "hidden": "賲禺賮賷",
+    "timeout": "丕賳鬲賴賶 丕賱賵賯鬲",
+    "sort": "賮乇夭",
+    "dashboard": "賱賵丨丞 丕賱鬲丨賰賲",
     "interval": {
       "day": {
         "zero": "",
-        "one": "يوم واحد",
-        "two": "يومان",
-        "few": "$n أيام",
-        "many": "$n يومًا",
-        "other": "$n يوم"
+        "one": "賷賵賲 賵丕丨丿",
+        "two": "賷賵賲丕賳",
+        "few": "$n 兀賷丕賲",
+        "many": "$n 賷賵賲賸丕",
+        "other": "$n 賷賵賲"
       },
       "hour": {
         "zero": "",
-        "one": "ساعة واحدة",
-        "two": "ساعتان",
-        "few": "$n ساعات",
-        "many": "$n ساعة",
-        "other": "$n ساعة"
+        "one": "爻丕毓丞 賵丕丨丿丞",
+        "two": "爻丕毓鬲丕賳",
+        "few": "$n 爻丕毓丕鬲",
+        "many": "$n 爻丕毓丞",
+        "other": "$n 爻丕毓丞"
       }
     },
     "msg": {
       "permission": {
-        "denied": "تم رفض الإذن"
+        "denied": "鬲賲 乇賮囟 丕賱廿匕賳"
       },
       "export": {
         "clipboard": {
-          "success": "تمت الإضافة إلى الحافظة بنجاح",
-          "failure": "فشل النسخ إلى الحافظة",
-          "contentTooLarge": "المحتوى كبير جدًا. استخدم تصدير الملف بدلاً من ذلك"
+          "success": "鬲賲鬲 丕賱廿囟丕賮丞 廿賱賶 丕賱丨丕賮馗丞 亘賳噩丕丨",
+          "failure": "賮卮賱 丕賱賳爻禺 廿賱賶 丕賱丨丕賮馗丞",
+          "contentTooLarge": "丕賱賲丨鬲賵賶 賰亘賷乇 噩丿賸丕. 丕爻鬲禺丿賲 鬲氐丿賷乇 丕賱賲賱賮 亘丿賱丕賸 賲賳 匕賱賰"
         },
         "file": {
-          "success": "تم إنشاء ملف JSON بنجاح",
-          "failure": "فشل إنشاء الملف"
+          "success": "鬲賲 廿賳卮丕亍 賲賱賮 JSON 亘賳噩丕丨",
+          "failure": "賮卮賱 廿賳卮丕亍 丕賱賲賱賮"
         }
       },
       "import": {
-        "confirm": "تأكيد الاستيراد",
-        "success": "تم الاستيراد بنجاح",
-        "failure": "فشل الاستيراد"
+        "confirm": "鬲兀賰賷丿 丕賱丕爻鬲賷乇丕丿",
+        "success": "鬲賲 丕賱丕爻鬲賷乇丕丿 亘賳噩丕丨",
+        "failure": "賮卮賱 丕賱丕爻鬲賷乇丕丿"
       }
     }
   },
   "intro": {
-    "banner": "كل ما تحتاجه لإنترنت بلا قيود",
-    "termsAndPolicyCaution(rich)": "بالاستمرار، أنت توافق على ${tap(@:pages.about.termsAndConditions)}",
-    "info(rich)": "صُنع بـ ❤️ بواسطة Hiddify - ${tap_source(مفتوح المصدر)} (${tap_license(الرخصة)})"
+    "banner": "賰賱 賲丕 鬲丨鬲丕噩賴 賱廿賳鬲乇賳鬲 亘賱丕 賯賷賵丿",
+    "termsAndPolicyCaution(rich)": "亘丕賱丕爻鬲賲乇丕乇貙 兀賳鬲 鬲賵丕賮賯 毓賱賶 ${tap(@:pages.about.termsAndConditions)}",
+    "info(rich)": "氐購賳毓 亘賭 鉂わ笍 亘賵丕爻胤丞 Hiddify - ${tap_source(賲賮鬲賵丨 丕賱賲氐丿乇)} (${tap_license(丕賱乇禺氐丞)})"
   },
   "pages": {
     "home": {
-      "title": "الرئيسية",
-      "quickSettings": "الإعدادات السريعة"
+      "title": "丕賱乇卅賷爻賷丞",
+      "quickSettings": "丕賱廿毓丿丕丿丕鬲 丕賱爻乇賷毓丞"
     },
     "proxies": {
-      "title": "البروكسيات",
-      "sort": "فرز البروكسيات",
-      "testDelay": "اختبار التأخير",
-      "empty": "لا توجد بروكسيات متاحة",
-      "activeProxy": "البروكسي النشط",
-      "unknownIp": "IP غير معروف",
+      "title": "丕賱亘乇賵賰爻賷丕鬲",
+      "sort": "賮乇夭 丕賱亘乇賵賰爻賷丕鬲",
+      "testDelay": "丕禺鬲亘丕乇 丕賱鬲兀禺賷乇",
+      "empty": "賱丕 鬲賵噩丿 亘乇賵賰爻賷丕鬲 賲鬲丕丨丞",
+      "activeProxy": "丕賱亘乇賵賰爻賷 丕賱賳卮胤",
+      "unknownIp": "IP 睾賷乇 賲毓乇賵賮",
       "sortOptions": {
-        "unsorted": "الافتراضي",
-        "name": "أبجديًا",
-        "delay": "حسب التأخير"
+        "unsorted": "丕賱丕賮鬲乇丕囟賷",
+        "name": "兀亘噩丿賷賸丕",
+        "delay": "丨爻亘 丕賱鬲兀禺賷乇"
       },
       "ipInfo": {
-        "address": "عنوان IP",
-        "country": "الدولة",
-        "organization": "المُنظمة"
+        "address": "毓賳賵丕賳 IP",
+        "country": "丕賱丿賵賱丞",
+        "organization": "丕賱賲購賳馗賲丞"
       },
       "delay": {
-        "result": "التأخير: ${delay} مللي ثانية",
-        "timeout": "انتهى وقت اختبار التأخير",
-        "testing": "التأخير: قيد الاختبار..."
+        "result": "丕賱鬲兀禺賷乇: ${delay} 賲賱賱賷 孬丕賳賷丞",
+        "timeout": "丕賳鬲賴賶 賵賯鬲 丕禺鬲亘丕乇 丕賱鬲兀禺賷乇",
+        "testing": "丕賱鬲兀禺賷乇: 賯賷丿 丕賱丕禺鬲亘丕乇..."
       }
     },
     "profiles": {
-      "title": "الملفات الشخصية",
-      "add": "إضافة ملف شخصي",
-      "update": "تحديث الملف الشخصي",
-      "viewAllProfiles": "عرض جميع الملفات الشخصية",
-      "activeProfileName": "اسم الملف النشط: \"${name}\".",
-      "nonActiveProfileName": "تحديد \"${name}\" كملف نشط",
-      "freeSubNotFound": "لم يتم العثور على اشتراك مجاني",
-      "freeSubNotFoundForRegion": "لم يتم العثور على اشتراك مجاني لمنطقة \"${region}\"",
-      "failedToLoad": "فشل التحميل",
-      "updateSubscriptions": "تحديث الاشتراكات",
+      "title": "丕賱賲賱賮丕鬲 丕賱卮禺氐賷丞",
+      "add": "廿囟丕賮丞 賲賱賮 卮禺氐賷",
+      "update": "鬲丨丿賷孬 丕賱賲賱賮 丕賱卮禺氐賷",
+      "viewAllProfiles": "毓乇囟 噩賲賷毓 丕賱賲賱賮丕鬲 丕賱卮禺氐賷丞",
+      "activeProfileName": "丕爻賲 丕賱賲賱賮 丕賱賳卮胤: \"${name}\".",
+      "nonActiveProfileName": "鬲丨丿賷丿 \"${name}\" 賰賲賱賮 賳卮胤",
+      "freeSubNotFound": "賱賲 賷鬲賲 丕賱毓孬賵乇 毓賱賶 丕卮鬲乇丕賰 賲噩丕賳賷",
+      "freeSubNotFoundForRegion": "賱賲 賷鬲賲 丕賱毓孬賵乇 毓賱賶 丕卮鬲乇丕賰 賲噩丕賳賷 賱賲賳胤賯丞 \"${region}\"",
+      "failedToLoad": "賮卮賱 丕賱鬲丨賲賷賱",
+      "updateSubscriptions": "鬲丨丿賷孬 丕賱丕卮鬲乇丕賰丕鬲",
       "share": {
-        "urlToClipboard": "رابط URL إلى الحافظة",
-        "showUrlQr": "عرض رمز QR للرابط",
-        "jsonToClipboard": "JSON إلى الحافظة"
+        "urlToClipboard": "乇丕亘胤 URL 廿賱賶 丕賱丨丕賮馗丞",
+        "showUrlQr": "毓乇囟 乇賲夭 QR 賱賱乇丕亘胤",
+        "jsonToClipboard": "JSON 廿賱賶 丕賱丨丕賮馗丞"
       },
       "msg": {
         "save": {
-          "success": "تم حفظ الملف الشخصي بنجاح"
+          "success": "鬲賲 丨賮馗 丕賱賲賱賮 丕賱卮禺氐賷 亘賳噩丕丨"
         },
-        "invalidUrl": "رابط غير صالح",
+        "invalidUrl": "乇丕亘胤 睾賷乇 氐丕賱丨",
         "add": {
-          "failure": "فشل إضافة الملف الشخصي"
+          "failure": "賮卮賱 廿囟丕賮丞 丕賱賲賱賮 丕賱卮禺氐賷"
         },
         "update": {
-          "success": "تم تحديث الملف الشخصي بنجاح",
-          "successNamed": "تم تحديث \"${name}\" بنجاح",
-          "failure": "فشل تحديث الملف الشخصي",
-          "failureNamed": "فشل تحديث \"${name}\""
+          "success": "鬲賲 鬲丨丿賷孬 丕賱賲賱賮 丕賱卮禺氐賷 亘賳噩丕丨",
+          "successNamed": "鬲賲 鬲丨丿賷孬 \"${name}\" 亘賳噩丕丨",
+          "failure": "賮卮賱 鬲丨丿賷孬 丕賱賲賱賮 丕賱卮禺氐賷",
+          "failureNamed": "賮卮賱 鬲丨丿賷孬 \"${name}\""
         },
         "delete": {
-          "success": "تم حذف الملف الشخصي بنجاح"
+          "success": "鬲賲 丨匕賮 丕賱賲賱賮 丕賱卮禺氐賷 亘賳噩丕丨"
         }
       }
     },
     "profileDetails": {
-      "title": "الملف الشخصي",
-      "lastUpdate": "آخر تحديث",
+      "title": "丕賱賲賱賮 丕賱卮禺氐賷",
+      "lastUpdate": "丌禺乇 鬲丨丿賷孬",
       "form": {
-        "nameHint": "اسم الملف الشخصي",
-        "emptyName": "الاسم مطلوب",
-        "invalidUrl": "رابط غير صالح",
-        "urlHint": "رابط الإعدادات الكامل",
-        "disableAutoUpdate": "تعطيل التحديث التلقائي",
-        "autoUpdateInterval": "فاصل التحديث التلقائي",
-        "loading": "جاري إضافة الملف الشخصي..."
+        "nameHint": "丕爻賲 丕賱賲賱賮 丕賱卮禺氐賷",
+        "emptyName": "丕賱丕爻賲 賲胤賱賵亘",
+        "invalidUrl": "乇丕亘胤 睾賷乇 氐丕賱丨",
+        "urlHint": "乇丕亘胤 丕賱廿毓丿丕丿丕鬲 丕賱賰丕賲賱",
+        "disableAutoUpdate": "鬲毓胤賷賱 丕賱鬲丨丿賷孬 丕賱鬲賱賯丕卅賷",
+        "autoUpdateInterval": "賮丕氐賱 丕賱鬲丨丿賷孬 丕賱鬲賱賯丕卅賷",
+        "loading": "噩丕乇賷 廿囟丕賮丞 丕賱賲賱賮 丕賱卮禺氐賷..."
       }
     },
     "logs": {
-      "title": "السجلات",
-      "shareCoreLogs": "مشاركة سجلات النواة",
-      "shareAppLogs": "مشاركة سجلات التطبيق"
+      "title": "丕賱爻噩賱丕鬲",
+      "shareCoreLogs": "賲卮丕乇賰丞 爻噩賱丕鬲 丕賱賳賵丕丞",
+      "shareAppLogs": "賲卮丕乇賰丞 爻噩賱丕鬲 丕賱鬲胤亘賷賯"
     },
     "about": {
-      "title": "حول التطبيق",
-      "notAvailableMsg": "أنت تستخدم أحدث إصدار بالفعل",
-      "checkForUpdate": "التحقق من وجود تحديثات",
-      "openWorkingDir": "فتح مجلد العمل",
-      "sourceCode": "الكود المصدري",
-      "telegramChannel": "قناة التيليجرام",
-      "termsAndConditions": "الشروط والأحكام",
-      "privacyPolicy": "سياسة الخصوصية"
+      "title": "丨賵賱 丕賱鬲胤亘賷賯",
+      "notAvailableMsg": "兀賳鬲 鬲爻鬲禺丿賲 兀丨丿孬 廿氐丿丕乇 亘丕賱賮毓賱",
+      "checkForUpdate": "丕賱鬲丨賯賯 賲賳 賵噩賵丿 鬲丨丿賷孬丕鬲",
+      "openWorkingDir": "賮鬲丨 賲噩賱丿 丕賱毓賲賱",
+      "sourceCode": "丕賱賰賵丿 丕賱賲氐丿乇賷",
+      "telegramChannel": "賯賳丕丞 丕賱鬲賷賱賷噩乇丕賲",
+      "termsAndConditions": "丕賱卮乇賵胤 賵丕賱兀丨賰丕賲",
+      "privacyPolicy": "爻賷丕爻丞 丕賱禺氐賵氐賷丞"
     },
     "settings": {
-      "title": "الإعدادات",
-      "resetTunnel": "إعادة تعيين ملف VPN",
+      "title": "丕賱廿毓丿丕丿丕鬲",
+      "resetTunnel": "廿毓丕丿丞 鬲毓賷賷賳 賲賱賮 VPN",
       "options": {
         "import": {
-          "clipboard": "استيراد الخيارات من الحافظة",
-          "file": "استيراد الخيارات من ملف"
+          "clipboard": "丕爻鬲賷乇丕丿 丕賱禺賷丕乇丕鬲 賲賳 丕賱丨丕賮馗丞",
+          "file": "丕爻鬲賷乇丕丿 丕賱禺賷丕乇丕鬲 賲賳 賲賱賮"
         },
         "export": {
-          "anonymousToClipboard": "نسخ الخيارات المجهولة إلى الحافظة",
-          "anonymousToFile": "تصدير الخيارات المجهولة إلى ملف",
-          "allToClipboard": "نسخ جميع الخيارات إلى الحافظة",
-          "allToFile": "تصدير جميع الخيارات إلى ملف"
+          "anonymousToClipboard": "賳爻禺 丕賱禺賷丕乇丕鬲 丕賱賲噩賴賵賱丞 廿賱賶 丕賱丨丕賮馗丞",
+          "anonymousToFile": "鬲氐丿賷乇 丕賱禺賷丕乇丕鬲 丕賱賲噩賴賵賱丞 廿賱賶 賲賱賮",
+          "allToClipboard": "賳爻禺 噩賲賷毓 丕賱禺賷丕乇丕鬲 廿賱賶 丕賱丨丕賮馗丞",
+          "allToFile": "鬲氐丿賷乇 噩賲賷毓 丕賱禺賷丕乇丕鬲 廿賱賶 賲賱賮"
         },
-        "reset": "إعادة تعيين الخيارات"
+        "reset": "廿毓丕丿丞 鬲毓賷賷賳 丕賱禺賷丕乇丕鬲"
       },
       "general": {
-        "title": "عام",
-        "locale": "اللغة",
-        "themeMode": "السمة",
+        "title": "毓丕賲",
+        "locale": "丕賱賱睾丞",
+        "themeMode": "丕賱爻賲丞",
         "themeModes": {
-          "system": "سمة النظام الافتراضية",
-          "dark": "الوضع الداكن",
-          "light": "الوضع الفاتح",
-          "black": "الوضع الأسود"
+          "system": "爻賲丞 丕賱賳馗丕賲 丕賱丕賮鬲乇丕囟賷丞",
+          "dark": "丕賱賵囟毓 丕賱丿丕賰賳",
+          "light": "丕賱賵囟毓 丕賱賮丕鬲丨",
+          "black": "丕賱賵囟毓 丕賱兀爻賵丿"
         },
-        "enableAnalytics": "تفعيل التحليلات",
-        "enableAnalyticsMsg": "السماح بجمع بيانات التحليل وتقارير الأعطال لتحسين التطبيق",
-        "autoIpCheck": "التحقق التلقائي من IP الاتصال",
-        "dynamicNotification": "عرض السرعة في الإشعار",
-        "hapticFeedback": "ردود الفعل اللمسية",
-        "actionAtClosing": "الإجراء عند الإغلاق",
-        "autoStart": "البدء عند تسجيل الدخول",
-        "silentStart": "البدء في الخلفية",
-        "ignoreBatteryOptimizations": "تجاهل تحسينات البطارية",
-        "ignoreBatteryOptimizationsMsg": "إزالة القيود للحصول على أفضل أداء للـ VPN",
-        "memoryLimit": "حد الذاكرة",
-        "memoryLimitMsg": "قم بتفعيل هذا الخيار إذا كنت تواجه أخطاء نفاد الذاكرة أو تعطل التطبيق بشكل متكرر",
-        "debugMode": "وضع التصحيح",
-        "debugModeMsg": "أعد تشغيل التطبيق لتطبيق هذا التغيير",
-        "logLevel": "مستوى السجل",
-        "connectionTestUrl": "رابط اختبار الاتصال",
-        "urlTestInterval": "فاصل اختبار الرابط",
-        "clashApiPort": "منفذ Clash API",
-        "useXrayCoreWhenPossible": "استخدام xray-core عند الإمكان",
-        "useXrayCoreWhenPossibleMsg": "استخدم xray-core عند تحليل روابط الاشتراك. تحتاج إلى إعادة استيراد الرابط لتفعيل هذا الخيار"
+        "enableAnalytics": "鬲賮毓賷賱 丕賱鬲丨賱賷賱丕鬲",
+        "enableAnalyticsMsg": "丕賱爻賲丕丨 亘噩賲毓 亘賷丕賳丕鬲 丕賱鬲丨賱賷賱 賵鬲賯丕乇賷乇 丕賱兀毓胤丕賱 賱鬲丨爻賷賳 丕賱鬲胤亘賷賯",
+        "autoIpCheck": "丕賱鬲丨賯賯 丕賱鬲賱賯丕卅賷 賲賳 IP 丕賱丕鬲氐丕賱",
+        "dynamicNotification": "毓乇囟 丕賱爻乇毓丞 賮賷 丕賱廿卮毓丕乇",
+        "hapticFeedback": "乇丿賵丿 丕賱賮毓賱 丕賱賱賲爻賷丞",
+        "actionAtClosing": "丕賱廿噩乇丕亍 毓賳丿 丕賱廿睾賱丕賯",
+        "autoStart": "丕賱亘丿亍 毓賳丿 鬲爻噩賷賱 丕賱丿禺賵賱",
+        "silentStart": "丕賱亘丿亍 賮賷 丕賱禺賱賮賷丞",
+        "ignoreBatteryOptimizations": "鬲噩丕賴賱 鬲丨爻賷賳丕鬲 丕賱亘胤丕乇賷丞",
+        "ignoreBatteryOptimizationsMsg": "廿夭丕賱丞 丕賱賯賷賵丿 賱賱丨氐賵賱 毓賱賶 兀賮囟賱 兀丿丕亍 賱賱賭 VPN",
+        "memoryLimit": "丨丿 丕賱匕丕賰乇丞",
+        "memoryLimitMsg": "賯賲 亘鬲賮毓賷賱 賴匕丕 丕賱禺賷丕乇 廿匕丕 賰賳鬲 鬲賵丕噩賴 兀禺胤丕亍 賳賮丕丿 丕賱匕丕賰乇丞 兀賵 鬲毓胤賱 丕賱鬲胤亘賷賯 亘卮賰賱 賲鬲賰乇乇",
+        "debugMode": "賵囟毓 丕賱鬲氐丨賷丨",
+        "debugModeMsg": "兀毓丿 鬲卮睾賷賱 丕賱鬲胤亘賷賯 賱鬲胤亘賷賯 賴匕丕 丕賱鬲睾賷賷乇",
+        "logLevel": "賲爻鬲賵賶 丕賱爻噩賱",
+        "connectionTestUrl": "乇丕亘胤 丕禺鬲亘丕乇 丕賱丕鬲氐丕賱",
+        "urlTestInterval": "賮丕氐賱 丕禺鬲亘丕乇 丕賱乇丕亘胤",
+        "clashApiPort": "賲賳賮匕 Clash API",
+        "useXrayCoreWhenPossible": "丕爻鬲禺丿丕賲 xray-core 毓賳丿 丕賱廿賲賰丕賳",
+        "useXrayCoreWhenPossibleMsg": "丕爻鬲禺丿賲 xray-core 毓賳丿 鬲丨賱賷賱 乇賵丕亘胤 丕賱丕卮鬲乇丕賰. 鬲丨鬲丕噩 廿賱賶 廿毓丕丿丞 丕爻鬲賷乇丕丿 丕賱乇丕亘胤 賱鬲賮毓賷賱 賴匕丕 丕賱禺賷丕乇"
       },
       "routing": {
-        "title": "التوجيه",
+        "title": "丕賱鬲賵噩賷賴",
         "perAppProxy": {
-          "title": "بروكسي لكل تطبيق",
-          "hideSysApps": "إخفاء تطبيقات النظام",
+          "title": "亘乇賵賰爻賷 賱賰賱 鬲胤亘賷賯",
+          "hideSysApps": "廿禺賮丕亍 鬲胤亘賷賯丕鬲 丕賱賳馗丕賲",
           "options": {
             "import": {
-              "clipboard": "استيراد التحديد من الحافظة",
-              "file": "استيراد التحديد من ملف",
-              "msg": "سيؤدي الاستيراد إلى استبدال تحديداتك الحالية. هل أنت متأكد من رغبتك في المتابعة؟"
+              "clipboard": "丕爻鬲賷乇丕丿 丕賱鬲丨丿賷丿 賲賳 丕賱丨丕賮馗丞",
+              "file": "丕爻鬲賷乇丕丿 丕賱鬲丨丿賷丿 賲賳 賲賱賮",
+              "msg": "爻賷丐丿賷 丕賱丕爻鬲賷乇丕丿 廿賱賶 丕爻鬲亘丿丕賱 鬲丨丿賷丿丕鬲賰 丕賱丨丕賱賷丞. 賴賱 兀賳鬲 賲鬲兀賰丿 賲賳 乇睾亘鬲賰 賮賷 丕賱賲鬲丕亘毓丞責"
             },
             "export": {
-              "clipboard": "نسخ التحديد إلى الحافظة",
-              "file": "تصدير التحديد إلى ملف"
+              "clipboard": "賳爻禺 丕賱鬲丨丿賷丿 廿賱賶 丕賱丨丕賮馗丞",
+              "file": "鬲氐丿賷乇 丕賱鬲丨丿賷丿 廿賱賶 賲賱賮"
             },
-            "shareToAll": "مشاركة مع الجميع",
-            "clearAllSelections": "مسح جميع التحديدات"
+            "shareToAll": "賲卮丕乇賰丞 賲毓 丕賱噩賲賷毓",
+            "clearAllSelections": "賲爻丨 噩賲賷毓 丕賱鬲丨丿賷丿丕鬲"
           },
           "modes": {
-            "all": "الكل",
-            "proxy": "بروكسي",
-            "bypass": "تجاوز",
-            "allMsg": "استخدام البروكسي لجميع التطبيقات",
-            "proxyMsg": "استخدام البروكسي للتطبيقات المحددة فقط",
-            "bypassMsg": "عدم استخدام البروكسي للتطبيقات المحددة"
+            "all": "丕賱賰賱",
+            "proxy": "亘乇賵賰爻賷",
+            "bypass": "鬲噩丕賵夭",
+            "allMsg": "丕爻鬲禺丿丕賲 丕賱亘乇賵賰爻賷 賱噩賲賷毓 丕賱鬲胤亘賷賯丕鬲",
+            "proxyMsg": "丕爻鬲禺丿丕賲 丕賱亘乇賵賰爻賷 賱賱鬲胤亘賷賯丕鬲 丕賱賲丨丿丿丞 賮賯胤",
+            "bypassMsg": "毓丿賲 丕爻鬲禺丿丕賲 丕賱亘乇賵賰爻賷 賱賱鬲胤亘賷賯丕鬲 丕賱賲丨丿丿丞"
           },
           "autoSelection": {
-            "title": "الاختيار التلقائي",
-            "performNow": "تنفيذ الآن",
-            "resetToDefault": "إعادة التعيين إلى الافتراضي",
-            "autoUpdateInterval": "فاصل التحديث التلقائي",
+            "title": "丕賱丕禺鬲賷丕乇 丕賱鬲賱賯丕卅賷",
+            "performNow": "鬲賳賮賷匕 丕賱丌賳",
+            "resetToDefault": "廿毓丕丿丞 丕賱鬲毓賷賷賳 廿賱賶 丕賱丕賮鬲乇丕囟賷",
+            "autoUpdateInterval": "賮丕氐賱 丕賱鬲丨丿賷孬 丕賱鬲賱賯丕卅賷",
             "toast": {
-              "success": "اكتمل الاختيار التلقائي للتطبيقات بنجاح",
-              "failure": "فشل الاختيار التلقائي",
-              "regionNotFound": "لم يتم العثور على اختيار تلقائي لمنطقة \"${region}\"",
-              "alreadyInAuto": "اختياراتك موجودة بالفعل في القائمة التلقائية"
+              "success": "丕賰鬲賲賱 丕賱丕禺鬲賷丕乇 丕賱鬲賱賯丕卅賷 賱賱鬲胤亘賷賯丕鬲 亘賳噩丕丨",
+              "failure": "賮卮賱 丕賱丕禺鬲賷丕乇 丕賱鬲賱賯丕卅賷",
+              "regionNotFound": "賱賲 賷鬲賲 丕賱毓孬賵乇 毓賱賶 丕禺鬲賷丕乇 鬲賱賯丕卅賷 賱賲賳胤賯丞 \"${region}\"",
+              "alreadyInAuto": "丕禺鬲賷丕乇丕鬲賰 賲賵噩賵丿丞 亘丕賱賮毓賱 賮賷 丕賱賯丕卅賲丞 丕賱鬲賱賯丕卅賷丞"
             },
             "dialog": {
-              "title": "الاختيار التلقائي للتطبيقات",
-              "msg": "تم تعطيل ميزة الاختيار التلقائي للبروكسي بسبب تغيير المنطقة إلى \"${region}\""
+              "title": "丕賱丕禺鬲賷丕乇 丕賱鬲賱賯丕卅賷 賱賱鬲胤亘賷賯丕鬲",
+              "msg": "鬲賲 鬲毓胤賷賱 賲賷夭丞 丕賱丕禺鬲賷丕乇 丕賱鬲賱賯丕卅賷 賱賱亘乇賵賰爻賷 亘爻亘亘 鬲睾賷賷乇 丕賱賲賳胤賯丞 廿賱賶 \"${region}\""
             }
           }
         },
-        "region": "المنطقة",
+        "region": "丕賱賲賳胤賯丞",
         "regions": {
-          "ir": "إيران (ir)",
-          "cn": "الصين (cn)",
-          "ru": "روسيا (ru)",
-          "af": "أفغانستان (af)",
-          "id": "إندونيسيا (id)",
-          "tr": "تركيا (tr)",
-          "br": "البرازيل (br)",
-          "other": "أخرى"
+          "ir": "廿賷乇丕賳 (ir)",
+          "cn": "丕賱氐賷賳 (cn)",
+          "ru": "乇賵爻賷丕 (ru)",
+          "af": "兀賮睾丕賳爻鬲丕賳 (af)",
+          "id": "廿賳丿賵賳賷爻賷丕 (id)",
+          "tr": "鬲乇賰賷丕 (tr)",
+          "br": "丕賱亘乇丕夭賷賱 (br)",
+          "other": "兀禺乇賶"
         },
         "balancerStrategy": {
-          "title": "استراتيجية Balancer",
+          "title": "丕爻鬲乇丕鬲賷噩賷丞 Balancer",
           "roundRobin": "Round robin",
           "consistentHash": "Consistent hash",
           "stickySession": "Sticky session"
         },
-        "blockAds": "حظر الإعلانات",
-        "bypassLan": "تجاوز الشبكة المحلية",
-        "resolveDestination": "تحديد وجهة الاتصال",
-        "ipv6Route": "توجيه IPv6",
+        "blockAds": "丨馗乇 丕賱廿毓賱丕賳丕鬲",
+        "bypassLan": "鬲噩丕賵夭 丕賱卮亘賰丞 丕賱賲丨賱賷丞",
+        "resolveDestination": "鬲丨丿賷丿 賵噩賴丞 丕賱丕鬲氐丕賱",
+        "ipv6Route": "鬲賵噩賷賴 IPv6",
         "ipv6Modes": {
-          "disable": "تعطيل",
-          "enable": "تفعيل",
-          "prefer": "مفضل",
-          "only": "فقط"
+          "disable": "鬲毓胤賷賱",
+          "enable": "鬲賮毓賷賱",
+          "prefer": "賲賮囟賱",
+          "only": "賮賯胤"
         },
         "routeRule": {
-          "title": "قواعد التوجيه",
+          "title": "賯賵丕毓丿 丕賱鬲賵噩賷賴",
           "options": {
             "import": {
-              "clipboard": "استيراد القواعد من الحافظة",
-              "file": "استيراد القواعد من ملف"
+              "clipboard": "丕爻鬲賷乇丕丿 丕賱賯賵丕毓丿 賲賳 丕賱丨丕賮馗丞",
+              "file": "丕爻鬲賷乇丕丿 丕賱賯賵丕毓丿 賲賳 賲賱賮"
             },
             "export": {
-              "clipboard": "نسخ القواعد إلى الحافظة",
-              "file": "حفظ القواعد في ملف"
+              "clipboard": "賳爻禺 丕賱賯賵丕毓丿 廿賱賶 丕賱丨丕賮馗丞",
+              "file": "丨賮馗 丕賱賯賵丕毓丿 賮賷 賲賱賮"
             },
-            "reset": "إعادة تعيين القواعد"
+            "reset": "廿毓丕丿丞 鬲毓賷賷賳 丕賱賯賵丕毓丿"
           },
-          "deleteRule": "حذف القاعدة",
-          "createRule": "إنشاء قاعدة جديدة",
+          "deleteRule": "丨匕賮 丕賱賯丕毓丿丞",
+          "createRule": "廿賳卮丕亍 賯丕毓丿丞 噩丿賷丿丞",
           "rule": {
-            "title": "قاعدة",
-            "ruleChanged": "تم تغيير القاعدة",
-            "ruleChangedMsg": "هل تريد حفظ تعديلاتك؟",
-            "onlyTunMode": "متوفر فقط في وضع TUN",
-            "notAvailabeInThisPlatform": "غير متوفر على هذا النظام",
-            "canNotBeEmpty": "لا يمكن أن يكون فارغًا",
+            "title": "賯丕毓丿丞",
+            "ruleChanged": "鬲賲 鬲睾賷賷乇 丕賱賯丕毓丿丞",
+            "ruleChangedMsg": "賴賱 鬲乇賷丿 丨賮馗 鬲毓丿賷賱丕鬲賰責",
+            "onlyTunMode": "賲鬲賵賮乇 賮賯胤 賮賷 賵囟毓 TUN",
+            "notAvailabeInThisPlatform": "睾賷乇 賲鬲賵賮乇 毓賱賶 賴匕丕 丕賱賳馗丕賲",
+            "canNotBeEmpty": "賱丕 賷賲賰賳 兀賳 賷賰賵賳 賮丕乇睾賸丕",
             "validUrlEx": "https://example.com",
-            "validUrl": "\"URL\" صالح مثل\n@:pages.settings.routing.routeRule.rule.validUrlEx",
+            "validUrl": "\"URL\" 氐丕賱丨 賲孬賱\n@:pages.settings.routing.routeRule.rule.validUrlEx",
             "validProcessNameEx": "Chrome.exe or google chrome or chrome",
-            "validProcessName": "\"اسم العملية\" صالح مثل\n@:pages.settings.routing.routeRule.rule.validProcessNameEx",
+            "validProcessName": "\"丕爻賲 丕賱毓賲賱賷丞\" 氐丕賱丨 賲孬賱\n@:pages.settings.routing.routeRule.rule.validProcessNameEx",
             "validProcessPathEx": "C:\\Pro...\\chrome.exe\n/App.../Google Chrome\n/usr/lib.../chrome",
-            "validProcessPath": "\"مسار العملية\" صالح مثل\n@:pages.settings.routing.routeRule.rule.validProcessPathEx",
+            "validProcessPath": "\"賲爻丕乇 丕賱毓賲賱賷丞\" 氐丕賱丨 賲孬賱\n@:pages.settings.routing.routeRule.rule.validProcessPathEx",
             "validPortRangeEx": "80 or 1-65000",
-            "validPortRange": "\"منفذ\" أو \"نطاق منافذ\" صالح مثل\n@:pages.settings.routing.routeRule.rule.validPortRangeEx",
+            "validPortRange": "\"賲賳賮匕\" 兀賵 \"賳胤丕賯 賲賳丕賮匕\" 氐丕賱丨 賲孬賱\n@:pages.settings.routing.routeRule.rule.validPortRangeEx",
             "validIpCidrEx": "8.8.8.8 or 10.0.0.0/24",
-            "validIpCidr": "IP CIDR صالح مثل\n@:pages.settings.routing.routeRule.rule.validIpCidrEx",
+            "validIpCidr": "IP CIDR 氐丕賱丨 賲孬賱\n@:pages.settings.routing.routeRule.rule.validIpCidrEx",
             "validDomainEx": "Google.com or dl.google.com",
-            "validDomain": "\"نطاق\" صالح مثل\n@:pages.settings.routing.routeRule.rule.validDomainEx",
+            "validDomain": "\"賳胤丕賯\" 氐丕賱丨 賲孬賱\n@:pages.settings.routing.routeRule.rule.validDomainEx",
             "validDomainSuffixEx": ".com or .ir",
-            "validDomainSuffix": "\"لاحقة نطاق\" صالحة مثل\n@:pages.settings.routing.routeRule.rule.validDomainSuffixEx",
+            "validDomainSuffix": "\"賱丕丨賯丞 賳胤丕賯\" 氐丕賱丨丞 賲孬賱\n@:pages.settings.routing.routeRule.rule.validDomainSuffixEx",
             "tileTitle(map)": {
-              "name": "الاسم",
-              "outbound": "التوجيه عند التطابق",
-              "rule_set": "رابط مجموعة القواعد",
-              "package_name": "أسماء الحزم",
-              "process_name": "أسماء العمليات",
-              "process_path": "مسارات العمليات",
-              "network": "الشبكات",
-              "port_range": "منافذ الوجهة",
-              "source_port_range": "منافذ المصدر",
-              "protocol": "البروتوكول",
-              "ip_cidr": "IP CIDR الوجهة",
-              "source_ip_cidr": "IP CIDR المصدر",
-              "domain": "النطاق",
-              "domain_suffixe": "لاحقة النطاق",
-              "domain_keyword": "كلمة مفتاحية للنطاق",
-              "domain_regex": "تعبير نمطي للنطاق"
+              "name": "丕賱丕爻賲",
+              "outbound": "丕賱鬲賵噩賷賴 毓賳丿 丕賱鬲胤丕亘賯",
+              "rule_set": "乇丕亘胤 賲噩賲賵毓丞 丕賱賯賵丕毓丿",
+              "package_name": "兀爻賲丕亍 丕賱丨夭賲",
+              "process_name": "兀爻賲丕亍 丕賱毓賲賱賷丕鬲",
+              "process_path": "賲爻丕乇丕鬲 丕賱毓賲賱賷丕鬲",
+              "network": "丕賱卮亘賰丕鬲",
+              "port_range": "賲賳丕賮匕 丕賱賵噩賴丞",
+              "source_port_range": "賲賳丕賮匕 丕賱賲氐丿乇",
+              "protocol": "丕賱亘乇賵鬲賵賰賵賱",
+              "ip_cidr": "IP CIDR 丕賱賵噩賴丞",
+              "source_ip_cidr": "IP CIDR 丕賱賲氐丿乇",
+              "domain": "丕賱賳胤丕賯",
+              "domain_suffixe": "賱丕丨賯丞 丕賱賳胤丕賯",
+              "domain_keyword": "賰賱賲丞 賲賮鬲丕丨賷丞 賱賱賳胤丕賯",
+              "domain_regex": "鬲毓亘賷乇 賳賲胤賷 賱賱賳胤丕賯"
             },
             "outbound(map)": {
-              "proxy": "بروكسي",
-              "direct": "مباشر",
-              "direct_with_fragment": "مباشر مع Fragment",
-              "block": "حظر"
+              "proxy": "亘乇賵賰爻賷",
+              "direct": "賲亘丕卮乇",
+              "direct_with_fragment": "賲亘丕卮乇 賲毓 Fragment",
+              "block": "丨馗乇"
             },
             "network(map)": {
-              "all": "الكل",
+              "all": "丕賱賰賱",
               "tcp": "TCP",
               "udp": "UDP"
             },
             "protocol(map)": {
-              "": "الكل",
+              "": "丕賱賰賱",
               "tls": "TLS",
               "http": "HTTP",
               "quic": "QUIC",
@@ -380,270 +380,270 @@
             }
           },
           "genericList": {
-            "addNew": "إضافة قيمة جديدة",
-            "update": "تحديث القيمة",
-            "clearList": "مسح القائمة",
-            "clearListMsg": "تم حذف جميع العناصر"
+            "addNew": "廿囟丕賮丞 賯賷賲丞 噩丿賷丿丞",
+            "update": "鬲丨丿賷孬 丕賱賯賷賲丞",
+            "clearList": "賲爻丨 丕賱賯丕卅賲丞",
+            "clearListMsg": "鬲賲 丨匕賮 噩賲賷毓 丕賱毓賳丕氐乇"
           },
           "androidApps": {
-            "pageTitle": "تطبيقات أندرويد",
-            "showSystemApps": "عرض تطبيقات النظام",
-            "hideSystemApps": "إخفاء تطبيقات النظام",
-            "clearSelection": "مسح التحديد",
-            "uninstalled": "غير مثبت"
+            "pageTitle": "鬲胤亘賷賯丕鬲 兀賳丿乇賵賷丿",
+            "showSystemApps": "毓乇囟 鬲胤亘賷賯丕鬲 丕賱賳馗丕賲",
+            "hideSystemApps": "廿禺賮丕亍 鬲胤亘賷賯丕鬲 丕賱賳馗丕賲",
+            "clearSelection": "賲爻丨 丕賱鬲丨丿賷丿",
+            "uninstalled": "睾賷乇 賲孬亘鬲"
           }
         }
       },
       "dns": {
         "title": "DNS",
-        "remoteDns": "DNS البعيد",
-        "remoteDnsDomainStrategy": "استراتيجية نطاق DNS البعيد",
-        "directDns": "محلل خادم الصادر (مباشر)",
-        "directDnsDomainStrategy": "استراتيجية النطاق الصادر",
-        "enableDnsRouting": "تمكين توجيه DNS",
-        "enableFakeDns": "تمكين DNS الوهمي",
+        "remoteDns": "DNS 丕賱亘毓賷丿",
+        "remoteDnsDomainStrategy": "丕爻鬲乇丕鬲賷噩賷丞 賳胤丕賯 DNS 丕賱亘毓賷丿",
+        "directDns": "賲丨賱賱 禺丕丿賲 丕賱氐丕丿乇 (賲亘丕卮乇)",
+        "directDnsDomainStrategy": "丕爻鬲乇丕鬲賷噩賷丞 丕賱賳胤丕賯 丕賱氐丕丿乇",
+        "enableDnsRouting": "鬲賲賰賷賳 鬲賵噩賷賴 DNS",
+        "enableFakeDns": "鬲賲賰賷賳 DNS 丕賱賵賴賲賷",
         "domainStrategy": {
-          "auto": "تلقائي",
-          "preferIpv6": "تفضيل IPv6",
-          "preferIpv4": "تفضيل IPv4",
-          "ipv4Only": "IPv4 فقط",
-          "ipv6Only": "IPv6 فقط"
+          "auto": "鬲賱賯丕卅賷",
+          "preferIpv6": "鬲賮囟賷賱 IPv6",
+          "preferIpv4": "鬲賮囟賷賱 IPv4",
+          "ipv4Only": "IPv4 賮賯胤",
+          "ipv6Only": "IPv6 賮賯胤"
         }
       },
       "inbound": {
-        "title": "الوارد",
-        "serviceMode": "وضع الخدمة",
+        "title": "丕賱賵丕乇丿",
+        "serviceMode": "賵囟毓 丕賱禺丿賲丞",
         "serviceModes": {
-          "proxy": "خدمة البروكسي فقط",
-          "systemProxy": "تعيين بروكسي النظام",
+          "proxy": "禺丿賲丞 丕賱亘乇賵賰爻賷 賮賯胤",
+          "systemProxy": "鬲毓賷賷賳 亘乇賵賰爻賷 丕賱賳馗丕賲",
           "tun": "VPN",
-          "tunService": "خدمة VPN"
+          "tunService": "禺丿賲丞 VPN"
         },
         "shortServiceModes": {
-          "proxy": "بروكسي",
-          "systemProxy": "بروكسي النظام",
+          "proxy": "亘乇賵賰爻賷",
+          "systemProxy": "亘乇賵賰爻賷 丕賱賳馗丕賲",
           "tun": "VPN",
-          "tunService": "خدمة VPN"
+          "tunService": "禺丿賲丞 VPN"
         },
-        "strictRoute": "توجيه صارم",
-        "tunImplementation": "تنفيذ Tun",
+        "strictRoute": "鬲賵噩賷賴 氐丕乇賲",
+        "tunImplementation": "鬲賳賮賷匕 Tun",
         "tunImplementations": {
-          "mixed": "مختلط",
-          "system": "النظام",
+          "mixed": "賲禺鬲賱胤",
+          "system": "丕賱賳馗丕賲",
           "gvisor": "gVisor"
         },
-        "mixedPort": "منفذ مختلط",
-        "tproxyPort": "منفذ البروكسي الشفاف",
-        "directPort": "منفذ مباشر",
-        "redirectPort": "منفذ إعادة التوجيه",
-        "allowConnectionFromLan": "مشاركة VPN على الشبكة المحلية"
+        "mixedPort": "賲賳賮匕 賲禺鬲賱胤",
+        "tproxyPort": "賲賳賮匕 丕賱亘乇賵賰爻賷 丕賱卮賮丕賮",
+        "directPort": "賲賳賮匕 賲亘丕卮乇",
+        "redirectPort": "賲賳賮匕 廿毓丕丿丞 丕賱鬲賵噩賷賴",
+        "allowConnectionFromLan": "賲卮丕乇賰丞 VPN 毓賱賶 丕賱卮亘賰丞 丕賱賲丨賱賷丞"
       },
       "tlsTricks": {
-        "title": "حيل TLS",
-        "enable": "تفعيل fragment",
-        "packets": "حزم التجزئة",
+        "title": "丨賷賱 TLS",
+        "enable": "鬲賮毓賷賱 fragment",
+        "packets": "丨夭賲 丕賱鬲噩夭卅丞",
         "packetsTlsHello": "TLS Hello",
         "packets1_1": "1-1",
         "packets1_2": "1-2",
         "packets1_3": "1-3",
         "packets1_4": "1-4",
         "packets1_5": "1-5",
-        "size": "حجم fragment",
-        "sleep": "تأخير fragment",
+        "size": "丨噩賲 fragment",
+        "sleep": "鬲兀禺賷乇 fragment",
         "mixedSniCase": {
-          "enable": "تفعيل الأحرف المختلطة لـ SNI"
+          "enable": "鬲賮毓賷賱 丕賱兀丨乇賮 丕賱賲禺鬲賱胤丞 賱賭 SNI"
         },
         "padding": {
-          "enable": "تفعيل padding",
-          "size": "حجم padding"
+          "enable": "鬲賮毓賷賱 padding",
+          "size": "丨噩賲 padding"
         }
       },
       "warp": {
         "title": "WARP",
-        "enable": "تفعيل WARP",
-        "generateConfig": "إنشاء تكوين WARP",
-        "configGenerated": "تم إنشاء تكوين WARP",
-        "missingConfig": "تكوين WARP مفقود",
-        "detourMode": "وضع توجيه WARP",
+        "enable": "鬲賮毓賷賱 WARP",
+        "generateConfig": "廿賳卮丕亍 鬲賰賵賷賳 WARP",
+        "configGenerated": "鬲賲 廿賳卮丕亍 鬲賰賵賷賳 WARP",
+        "missingConfig": "鬲賰賵賷賳 WARP 賲賮賯賵丿",
+        "detourMode": "賵囟毓 鬲賵噩賷賴 WARP",
         "detourModes": {
-          "proxyOverWarp": "توجيه البروكسيات عبر WARP",
-          "warpOverProxy": "توجيه WARP عبر البروكسيات",
-          "proxyOverWarpExplain": "لإلغاء حظر البروكسيات بواسطة WARP",
-          "warpOverProxyExplain": "لأمان إضافي بواسطة WARP"
+          "proxyOverWarp": "鬲賵噩賷賴 丕賱亘乇賵賰爻賷丕鬲 毓亘乇 WARP",
+          "warpOverProxy": "鬲賵噩賷賴 WARP 毓亘乇 丕賱亘乇賵賰爻賷丕鬲",
+          "proxyOverWarpExplain": "賱廿賱睾丕亍 丨馗乇 丕賱亘乇賵賰爻賷丕鬲 亘賵丕爻胤丞 WARP",
+          "warpOverProxyExplain": "賱兀賲丕賳 廿囟丕賮賷 亘賵丕爻胤丞 WARP"
         },
-        "licenseKey": "مفتاح الترخيص",
-        "cleanIp": "IP نظيف",
-        "port": "المنفذ",
+        "licenseKey": "賲賮鬲丕丨 丕賱鬲乇禺賷氐",
+        "cleanIp": "IP 賳馗賷賮",
+        "port": "丕賱賲賳賮匕",
         "noise": {
-          "count": "عدد الضوضاء",
-          "mode": "وضع الضوضاء",
-          "size": "حجم الضوضاء",
-          "delay": "تأخير الضوضاء"
+          "count": "毓丿丿 丕賱囟賵囟丕亍",
+          "mode": "賵囟毓 丕賱囟賵囟丕亍",
+          "size": "丨噩賲 丕賱囟賵囟丕亍",
+          "delay": "鬲兀禺賷乇 丕賱囟賵囟丕亍"
         }
       }
     }
   },
   "components": {
     "stats": {
-      "connection": "الاتصال",
-      "traffic": "البيانات",
-      "trafficLive": "البيانات الحالية",
-      "trafficTotal": "إجمالي البيانات",
-      "uplink": "الإرسال",
-      "downlink": "الاستقبال",
-      "speed": "السرعة",
-      "totalTransferred": "إجمالي النقل"
+      "connection": "丕賱丕鬲氐丕賱",
+      "traffic": "丕賱亘賷丕賳丕鬲",
+      "trafficLive": "丕賱亘賷丕賳丕鬲 丕賱丨丕賱賷丞",
+      "trafficTotal": "廿噩賲丕賱賷 丕賱亘賷丕賳丕鬲",
+      "uplink": "丕賱廿乇爻丕賱",
+      "downlink": "丕賱丕爻鬲賯亘丕賱",
+      "speed": "丕賱爻乇毓丞",
+      "totalTransferred": "廿噩賲丕賱賷 丕賱賳賯賱"
     },
     "subscriptionInfo": {
-      "upload": "الرفع",
-      "download": "التنزيل",
-      "total": "إجمالي البيانات",
-      "expireDate": "تاريخ الانتهاء",
-      "expired": "منتهي الصلاحية",
-      "noTraffic": "نفدت الباقة",
-      "remainingTime": "الوقت المتبقي",
-      "remainingDuration": "متبقٍ ${duration} يوم",
-      "remainingDurationNew": "${duration} يوم",
-      "remainingTrafficSemanticLabel": "تم استهلاك ${consumed} من ${total}",
-      "remainingTraffic": "البيانات المتبقية",
-      "remainingUsage": "المتبقي",
-      "profileSite": "المزوّد",
-      "profileSupport": "الدعم"
+      "upload": "丕賱乇賮毓",
+      "download": "丕賱鬲賳夭賷賱",
+      "total": "廿噩賲丕賱賷 丕賱亘賷丕賳丕鬲",
+      "expireDate": "鬲丕乇賷禺 丕賱丕賳鬲賴丕亍",
+      "expired": "賲賳鬲賴賷 丕賱氐賱丕丨賷丞",
+      "noTraffic": "賳賮丿鬲 丕賱亘丕賯丞",
+      "remainingTime": "丕賱賵賯鬲 丕賱賲鬲亘賯賷",
+      "remainingDuration": "賲鬲亘賯賺 ${duration} 賷賵賲",
+      "remainingDurationNew": "${duration} 賷賵賲",
+      "remainingTrafficSemanticLabel": "鬲賲 丕爻鬲賴賱丕賰 ${consumed} 賲賳 ${total}",
+      "remainingTraffic": "丕賱亘賷丕賳丕鬲 丕賱賲鬲亘賯賷丞",
+      "remainingUsage": "丕賱賲鬲亘賯賷",
+      "profileSite": "丕賱賲夭賵賾丿",
+      "profileSupport": "丕賱丿毓賲"
     }
   },
   "dialogs": {
     "sortProfiles": {
-      "title": "فرز حسب",
+      "title": "賮乇夭 丨爻亘",
       "sort": {
-        "name": "أبجديًا",
-        "lastUpdate": "آخر تحديث"
+        "name": "兀亘噩丿賷賸丕",
+        "lastUpdate": "丌禺乇 鬲丨丿賷孬"
       }
     },
     "warpLicense": {
-      "title": "موافقة Cloudflare WARP",
-      "description(rich)": "Cloudflare WARP هو مزود VPN مجاني لـ WireGuard. بتفعيل هذا الخيار، فإنك توافق على ${tos(شروط الخدمة)} و ${privacy(سياسة الخصوصية)} الخاصة بـ Cloudflare WARP."
+      "title": "賲賵丕賮賯丞 Cloudflare WARP",
+      "description(rich)": "Cloudflare WARP 賴賵 賲夭賵丿 VPN 賲噩丕賳賷 賱賭 WireGuard. 亘鬲賮毓賷賱 賴匕丕 丕賱禺賷丕乇貙 賮廿賳賰 鬲賵丕賮賯 毓賱賶 ${tos(卮乇賵胤 丕賱禺丿賲丞)} 賵 ${privacy(爻賷丕爻丞 丕賱禺氐賵氐賷丞)} 丕賱禺丕氐丞 亘賭 Cloudflare WARP."
     },
     "newVersion": {
-      "title": "تحديث متاح",
-      "msg": "إصدار جديد من @:common.appTitle متاح. هل ترغب في التحديث الآن؟",
-      "currentVersion": "الإصدار الحالي: ",
-      "newVersion": "الإصدار الجديد: ",
-      "updateNow": "التحديث الآن"
+      "title": "鬲丨丿賷孬 賲鬲丕丨",
+      "msg": "廿氐丿丕乇 噩丿賷丿 賲賳 @:common.appTitle 賲鬲丕丨. 賴賱 鬲乇睾亘 賮賷 丕賱鬲丨丿賷孬 丕賱丌賳責",
+      "currentVersion": "丕賱廿氐丿丕乇 丕賱丨丕賱賷: ",
+      "newVersion": "丕賱廿氐丿丕乇 丕賱噩丿賷丿: ",
+      "updateNow": "丕賱鬲丨丿賷孬 丕賱丌賳"
     },
     "confirmation": {
       "settings": {
         "import": {
-          "msg": "سيؤدي هذا إلى استبدال جميع إعداداتك الحالية. هل أنت متأكد؟"
+          "msg": "爻賷丐丿賷 賴匕丕 廿賱賶 丕爻鬲亘丿丕賱 噩賲賷毓 廿毓丿丕丿丕鬲賰 丕賱丨丕賱賷丞. 賴賱 兀賳鬲 賲鬲兀賰丿責"
         }
       },
       "profile": {
         "delete": {
-          "title": "حذف الملف الشخصي",
-          "msg": "هل أنت متأكد من رغبتك في حذف هذا الملف الشخصي نهائيًا؟"
+          "title": "丨匕賮 丕賱賲賱賮 丕賱卮禺氐賷",
+          "msg": "賴賱 兀賳鬲 賲鬲兀賰丿 賲賳 乇睾亘鬲賰 賮賷 丨匕賮 賴匕丕 丕賱賲賱賮 丕賱卮禺氐賷 賳賴丕卅賷賸丕責"
         }
       },
       "perAppProxy": {
         "shareOnGithub": {
-          "title": "تحسين الاختيار التلقائي",
-          "msg": "بمشاركة التطبيقات التي اخترتها، فإنك تساعد في إكمال قائمة \"الاختيار التلقائي\""
+          "title": "鬲丨爻賷賳 丕賱丕禺鬲賷丕乇 丕賱鬲賱賯丕卅賷",
+          "msg": "亘賲卮丕乇賰丞 丕賱鬲胤亘賷賯丕鬲 丕賱鬲賷 丕禺鬲乇鬲賴丕貙 賮廿賳賰 鬲爻丕毓丿 賮賷 廿賰賲丕賱 賯丕卅賲丞 \"丕賱丕禺鬲賷丕乇 丕賱鬲賱賯丕卅賷\""
         },
         "import": {
-          "msg": "سيؤدي هذا إلى استبدال جميع تحديداتك الحالية لبروكسي التطبيقات. هل أنت متأكد من رغبتك في المتابعة؟"
+          "msg": "爻賷丐丿賷 賴匕丕 廿賱賶 丕爻鬲亘丿丕賱 噩賲賷毓 鬲丨丿賷丿丕鬲賰 丕賱丨丕賱賷丞 賱亘乇賵賰爻賷 丕賱鬲胤亘賷賯丕鬲. 賴賱 兀賳鬲 賲鬲兀賰丿 賲賳 乇睾亘鬲賰 賮賷 丕賱賲鬲丕亘毓丞責"
         }
       },
       "routeRule": {
         "delete": {
-          "title": "حذف القاعدة",
-          "msg": "هل أنت متأكد من رغبتك في حذف قاعدة \"$rulename\"؟"
+          "title": "丨匕賮 丕賱賯丕毓丿丞",
+          "msg": "賴賱 兀賳鬲 賲鬲兀賰丿 賲賳 乇睾亘鬲賰 賮賷 丨匕賮 賯丕毓丿丞 \"$rulename\"責"
         }
       }
     },
     "experimentalNotice": {
-      "title": "ميزات تجريبية قيد الاستخدام",
-      "msg": "لقد فعّلت ميزات تجريبية قد تؤثر على جودة الاتصال وتسبب أخطاء غير متوقعة. يمكنك دائمًا تغيير هذه الخيارات أو إعادة تعيينها من صفحة الإعدادات.",
-      "disable": "لا تعرض مرة أخرى"
+      "title": "賲賷夭丕鬲 鬲噩乇賷亘賷丞 賯賷丿 丕賱丕爻鬲禺丿丕賲",
+      "msg": "賱賯丿 賮毓賾賱鬲 賲賷夭丕鬲 鬲噩乇賷亘賷丞 賯丿 鬲丐孬乇 毓賱賶 噩賵丿丞 丕賱丕鬲氐丕賱 賵鬲爻亘亘 兀禺胤丕亍 睾賷乇 賲鬲賵賯毓丞. 賷賲賰賳賰 丿丕卅賲賸丕 鬲睾賷賷乇 賴匕賴 丕賱禺賷丕乇丕鬲 兀賵 廿毓丕丿丞 鬲毓賷賷賳賴丕 賲賳 氐賮丨丞 丕賱廿毓丿丕丿丕鬲.",
+      "disable": "賱丕 鬲毓乇囟 賲乇丞 兀禺乇賶"
     },
     "noActiveProfile": {
-      "title": "اختر ملفًا شخصيًا",
-      "msg": "للبدء، قم بإضافة ملف اتصال يحتوي على تفاصيل اتصال VPN الخاصة بك.\n\nأليس لديك خادم VPN بعد؟ لا تقلق، اتبع الدليل أدناه لإعداد واحد بسرعة ومجانًا.",
+      "title": "丕禺鬲乇 賲賱賮賸丕 卮禺氐賷賸丕",
+      "msg": "賱賱亘丿亍貙 賯賲 亘廿囟丕賮丞 賲賱賮 丕鬲氐丕賱 賷丨鬲賵賷 毓賱賶 鬲賮丕氐賷賱 丕鬲氐丕賱 VPN 丕賱禺丕氐丞 亘賰.\n\n兀賱賷爻 賱丿賷賰 禺丕丿賲 VPN 亘毓丿責 賱丕 鬲賯賱賯貙 丕鬲亘毓 丕賱丿賱賷賱 兀丿賳丕賴 賱廿毓丿丕丿 賵丕丨丿 亘爻乇毓丞 賵賲噩丕賳賸丕.",
       "helpBtn": {
-        "label": "أرني كيف",
+        "label": "兀乇賳賷 賰賷賮",
         "url": "https://hiddify.com/manager/"
       }
     },
     "unknownDomainsWarning": {
-      "title": "تحذير من رابط خارجي",
-      "youAreAboutToVisit": "أنت على وشك زيارة:",
-      "thisWebsiteIsNotInOurTrustedList": "هذا الموقع ليس ضمن قائمة المواقع الموثوقة لدينا. يرجى المتابعة بحذر."
+      "title": "鬲丨匕賷乇 賲賳 乇丕亘胤 禺丕乇噩賷",
+      "youAreAboutToVisit": "兀賳鬲 毓賱賶 賵卮賰 夭賷丕乇丞:",
+      "thisWebsiteIsNotInOurTrustedList": "賴匕丕 丕賱賲賵賯毓 賱賷爻 囟賲賳 賯丕卅賲丞 丕賱賲賵丕賯毓 丕賱賲賵孬賵賯丞 賱丿賷賳丕. 賷乇噩賶 丕賱賲鬲丕亘毓丞 亘丨匕乇."
     },
     "proxyInfo": {
-      "fullTag": "العلامة الكاملة:",
-      "type": "النوع:",
-      "testTime": "وقت الاختبار:",
-      "testDelay": "تأخير الاختبار:",
-      "isSelected": "محدد:",
-      "isGroup": "مجموعة",
-      "isSecure": "آمن:",
-      "port": "المنفذ:",
-      "host": "المضيف:",
+      "fullTag": "丕賱毓賱丕賲丞 丕賱賰丕賲賱丞:",
+      "type": "丕賱賳賵毓:",
+      "testTime": "賵賯鬲 丕賱丕禺鬲亘丕乇:",
+      "testDelay": "鬲兀禺賷乇 丕賱丕禺鬲亘丕乇:",
+      "isSelected": "賲丨丿丿:",
+      "isGroup": "賲噩賲賵毓丞",
+      "isSecure": "丌賲賳:",
+      "port": "丕賱賲賳賮匕:",
+      "host": "丕賱賲囟賷賮:",
       "ip": "IP:",
-      "countryCode": "رمز الدولة:",
-      "region": "المنطقة:",
-      "city": "المدينة:",
+      "countryCode": "乇賲夭 丕賱丿賵賱丞:",
+      "region": "丕賱賲賳胤賯丞:",
+      "city": "丕賱賲丿賷賳丞:",
       "asn": "ASN:",
-      "organization": "المُنظمة:",
-      "location": "الموقع:",
-      "postalCode": "الرمز البريدي:"
+      "organization": "丕賱賲購賳馗賲丞:",
+      "location": "丕賱賲賵賯毓:",
+      "postalCode": "丕賱乇賲夭 丕賱亘乇賷丿賷:"
     },
     "windowClosing": {
-      "askEachTime": "السؤال كل مرة",
-      "alertMessage": "هل تريد إخفاء التطبيق أم الخروج منه؟",
-      "remember": "تذكر خياري"
+      "askEachTime": "丕賱爻丐丕賱 賰賱 賲乇丞",
+      "alertMessage": "賴賱 鬲乇賷丿 廿禺賮丕亍 丕賱鬲胤亘賷賯 兀賲 丕賱禺乇賵噩 賲賳賴責",
+      "remember": "鬲匕賰乇 禺賷丕乇賷"
     }
   },
   "connection": {
-    "tapToConnect": "انقر للاتصال",
-    "connect": "اتصال",
-    "connecting": "جار الاتصال...",
-    "connected": "متصل",
-    "disconnect": "قطع الاتصال",
-    "disconnecting": "جاري قطع الاتصال...",
-    "reconnect": "إعادة الاتصال",
-    "reconnectMsg": "جاري إعادة الاتصال لتطبيق التغييرات...",
-    "secure": "مُؤمَّن بواسطة WARP"
+    "tapToConnect": "丕賳賯乇 賱賱丕鬲氐丕賱",
+    "connect": "丕鬲氐丕賱",
+    "connecting": "噩丕乇 丕賱丕鬲氐丕賱...",
+    "connected": "賲鬲氐賱",
+    "disconnect": "賯胤毓 丕賱丕鬲氐丕賱",
+    "disconnecting": "噩丕乇賷 賯胤毓 丕賱丕鬲氐丕賱...",
+    "reconnect": "廿毓丕丿丞 丕賱丕鬲氐丕賱",
+    "reconnectMsg": "噩丕乇賷 廿毓丕丿丞 丕賱丕鬲氐丕賱 賱鬲胤亘賷賯 丕賱鬲睾賷賷乇丕鬲...",
+    "secure": "賲購丐賲賾賻賳 亘賵丕爻胤丞 WARP"
   },
   "errors": {
-    "unexpected": "خطأ غير متوقع",
+    "unexpected": "禺胤兀 睾賷乇 賲鬲賵賯毓",
     "connection": {
-      "unexpected": "خطأ اتصال غير متوقع",
-      "timeout": "انتهى وقت الاتصال",
-      "badResponse": "استجابة غير صالحة",
-      "connectionError": "خطأ في الاتصال",
-      "badCertificate": "شهادة غير صالحة"
+      "unexpected": "禺胤兀 丕鬲氐丕賱 睾賷乇 賲鬲賵賯毓",
+      "timeout": "丕賳鬲賴賶 賵賯鬲 丕賱丕鬲氐丕賱",
+      "badResponse": "丕爻鬲噩丕亘丞 睾賷乇 氐丕賱丨丞",
+      "connectionError": "禺胤兀 賮賷 丕賱丕鬲氐丕賱",
+      "badCertificate": "卮賴丕丿丞 睾賷乇 氐丕賱丨丞"
     },
     "profiles": {
-      "unexpected": "خطأ غير متوقع",
-      "notFound": "لم يتم العثور على الملف الشخصي",
-      "invalidConfig": "تكوينات غير صالحة",
-      "invalidUrl": "رابط غير صالح",
-      "canceledByUser": "تم الإلغاء من قبل المستخدم"
+      "unexpected": "禺胤兀 睾賷乇 賲鬲賵賯毓",
+      "notFound": "賱賲 賷鬲賲 丕賱毓孬賵乇 毓賱賶 丕賱賲賱賮 丕賱卮禺氐賷",
+      "invalidConfig": "鬲賰賵賷賳丕鬲 睾賷乇 氐丕賱丨丞",
+      "invalidUrl": "乇丕亘胤 睾賷乇 氐丕賱丨",
+      "canceledByUser": "鬲賲 丕賱廿賱睾丕亍 賲賳 賯亘賱 丕賱賲爻鬲禺丿賲"
     },
     "connectivity": {
-      "unexpected": "فشل غير متوقع",
-      "missingVpnPermission": "إذن الـ VPN مفقود",
-      "missingNotificationPermission": "إذن الإشعارات مفقود",
-      "core": "خطأ في النواة"
+      "unexpected": "賮卮賱 睾賷乇 賲鬲賵賯毓",
+      "missingVpnPermission": "廿匕賳 丕賱賭 VPN 賲賮賯賵丿",
+      "missingNotificationPermission": "廿匕賳 丕賱廿卮毓丕乇丕鬲 賲賮賯賵丿",
+      "core": "禺胤兀 賮賷 丕賱賳賵丕丞"
     },
     "singbox": {
-      "serviceNotRunning": "الخدمة لا تعمل",
-      "missingPrivilege": "صلاحيات مطلوبة",
-      "missingPrivilegeMsg": "وضع الـ VPN يتطلب صلاحيات المسؤول. يرجى إعادة تشغيل التطبيق كمسؤول أو تغيير وضع الخدمة.",
-      "invalidConfigOptions": "خيارات تكوين غير صالحة",
-      "invalidConfig": "تكوين غير صالح"
+      "serviceNotRunning": "丕賱禺丿賲丞 賱丕 鬲毓賲賱",
+      "missingPrivilege": "氐賱丕丨賷丕鬲 賲胤賱賵亘丞",
+      "missingPrivilegeMsg": "賵囟毓 丕賱賭 VPN 賷鬲胤賱亘 氐賱丕丨賷丕鬲 丕賱賲爻丐賵賱. 賷乇噩賶 廿毓丕丿丞 鬲卮睾賷賱 丕賱鬲胤亘賷賯 賰賲爻丐賵賱 兀賵 鬲睾賷賷乇 賵囟毓 丕賱禺丿賲丞.",
+      "invalidConfigOptions": "禺賷丕乇丕鬲 鬲賰賵賷賳 睾賷乇 氐丕賱丨丞",
+      "invalidConfig": "鬲賰賵賷賳 睾賷乇 氐丕賱丨"
     },
     "warp": {
-      "missingLicense": "رخصة WARP مفقودة",
-      "missingLicenseMsg": "الملف الشخصي المحدد يستخدم ميزة WARP. لاستخدام هذه الميزة، يجب الموافقة على شروط رخصة WARP."
+      "missingLicense": "乇禺氐丞 WARP 賲賮賯賵丿丞",
+      "missingLicenseMsg": "丕賱賲賱賮 丕賱卮禺氐賷 丕賱賲丨丿丿 賷爻鬲禺丿賲 賲賷夭丞 WARP. 賱丕爻鬲禺丿丕賲 賴匕賴 丕賱賲賷夭丞貙 賷噩亘 丕賱賲賵丕賮賯丞 毓賱賶 卮乇賵胤 乇禺氐丞 WARP."
     }
   }
 }

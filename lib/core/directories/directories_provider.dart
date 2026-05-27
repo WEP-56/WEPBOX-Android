@@ -14,13 +14,17 @@ part 'directories_provider.g.dart';
 
 @Riverpod(keepAlive: true)
 class AppDirectories extends _$AppDirectories with InfraLogger {
-  final _methodChannel = const MethodChannel("com.hiddify.app/platform");
+  final _methodChannel = const MethodChannel("com.wepbox.app/platform");
 
   @override
   Future<Directories> build() async {
     final Directories dirs;
     if (kIsWeb) {
-      return (baseDir: Directory("."), workingDir: Directory("."), tempDir: Directory("."));
+      return (
+        baseDir: Directory("."),
+        workingDir: Directory("."),
+        tempDir: Directory("."),
+      );
     }
     if (PlatformUtils.isIOS) {
       final paths = await _methodChannel.invokeMethod<Map>("get_paths");
@@ -34,10 +38,16 @@ class AppDirectories extends _$AppDirectories with InfraLogger {
         Environment.isPortable &&
         await checkDirectoryAccess(getPortableDirectory())) {
       final portableDir = getPortableDirectory();
-      dirs = (baseDir: portableDir, workingDir: portableDir, tempDir: await getTemporaryDirectory());
+      dirs = (
+        baseDir: portableDir,
+        workingDir: portableDir,
+        tempDir: await getTemporaryDirectory(),
+      );
     } else {
       final baseDir = await getApplicationSupportDirectory();
-      final workingDir = Platform.isAndroid ? await _getAndroidWorkingDirectory() : baseDir;
+      final workingDir = Platform.isAndroid
+          ? await _getAndroidWorkingDirectory()
+          : baseDir;
       final tempDir = await getTemporaryDirectory();
       dirs = (baseDir: baseDir, workingDir: workingDir!, tempDir: tempDir);
     }
@@ -82,7 +92,7 @@ class AppDirectories extends _$AppDirectories with InfraLogger {
 
   static Directory getPortableDirectory() {
     final exeDir = File(Platform.resolvedExecutable).parent;
-    return Directory(p.join(exeDir.path, 'hiddify_portable_data'));
+    return Directory(p.join(exeDir.path, 'wepbox_portable_data'));
   }
 
   static Future<bool> checkDirectoryAccess(Directory dir) async {

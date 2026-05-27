@@ -2,7 +2,7 @@
 SED() { [[ "$OSTYPE" == "darwin"* ]] && sed -i '' "$@" || sed -i "$@"; }
 echo "previous version was $(git describe --tags $(git rev-list --tags --max-count=1))"
 echo "WARNING: This operation will creates version tag and push to github"
-if [ "$(curl -o /dev/null -I -s -w "%{http_code}" https://github.com/hiddify/hiddify-core/releases/download/v${CORE_VERSION}/hiddify-core-linux-amd64.tar.gz)" = "404" ]; then 
+if [ "$(curl -o /dev/null -I -s -w "%{http_code}" https://github.com/hiddify/hiddify-next-core/releases/download/v${CORE_VERSION}/hiddify-lib-android.tar.gz)" = "404" ]; then 
     echo "Core v${CORE_VERSION} not Found"; 
     exit 3; 
 fi
@@ -22,15 +22,11 @@ BUILD_NUMBER=$(( ${VERSION_ARRAY[0]} * 10000 + ${VERSION_ARRAY[1]} * 100 + ${VER
 echo "version: ${VERSION_STR}+${BUILD_NUMBER}" 
 echo "====$cbuild_number"
 SED "s/^version: .*/version: ${VERSION_STR}\+${BUILD_NUMBER}/g" pubspec.yaml 
-SED "s/^msix_version: .*/msix_version: ${VERSION_ARRAY[0]}.${VERSION_ARRAY[1]}.${VERSION_ARRAY[2]}.0/g" windows/packaging/msix/make_config.yaml 
-SED "s|CURRENT_PROJECT_VERSION = ${cbuild_number}|CURRENT_PROJECT_VERSION = ${BUILD_NUMBER}|g" ios/Runner.xcodeproj/project.pbxproj 
-SED "s/MARKETING_VERSION = ${cstr_version}/MARKETING_VERSION = ${VERSION_STR}/g" ios/Runner.xcodeproj/project.pbxproj 
+if [ -f windows/packaging/msix/make_config.yaml ]; then
+    SED "s/^msix_version: .*/msix_version: ${VERSION_ARRAY[0]}.${VERSION_ARRAY[1]}.${VERSION_ARRAY[2]}.0/g" windows/packaging/msix/make_config.yaml
+fi
 
-git tag ${TAG} > /dev/null 
-
-gitchangelog > HISTORY.md || { git tag -d ${TAG}; echo "Please run pip install gitchangelog pystache mustache markdown"; exit 2; } 
-git tag -d ${TAG} > /dev/null 
-git add hiddify-core dependencies.properties ios/Runner.xcodeproj/project.pbxproj pubspec.yaml windows/packaging/msix/make_config.yaml HISTORY.md 
+git add hiddify-core dependencies.properties pubspec.yaml windows/packaging/msix/make_config.yaml
 git commit -m "release: version ${TAG}" 
 echo "creating git tag : v${TAG}" 
 git push 
